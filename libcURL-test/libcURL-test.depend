@@ -1,0 +1,5286 @@
+# depslib dependency file v1.0
+1665047999 source:/home/freedom/curl-test/curl-master/lib/altsvc.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"altsvc.h"
+	"curl_get_line.h"
+	"strcase.h"
+	"parsedate.h"
+	"sendf.h"
+	"warnless.h"
+	"fopen.h"
+	"rename.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1667806786 /home/freedom/curl-test/curl-master/lib/curl_setup.h
+	"lib/curl_config.h"
+	<_mingw.h>
+	<winapifamily.h>
+	"curl_config.h"
+	"config-win32ce.h"
+	"config-win32.h"
+	"config-mac.h"
+	"config-riscos.h"
+	"config-amigaos.h"
+	"config-os400.h"
+	"config-plan9.h"
+	"setup-os400.h"
+	"setup-vms.h"
+	"setup-win32.h"
+	<curl/system.h>
+	<TargetConditionals.h>
+	<lwip/init.h>
+	<lwip/sockets.h>
+	<lwip/netdb.h>
+	<extra/stricmp.h>
+	<extra/strdup.h>
+	<exec/types.h>
+	<exec/execbase.h>
+	<proto/exec.h>
+	<proto/dos.h>
+	<unistd.h>
+	<proto/bsdsocket.h>
+	<stdio.h>
+	<assert.h>
+	<floss.h>
+	<curl/stdcheaders.h>
+	<sys/types.h>
+	<unistd.h>
+	<clib.h>
+	<io.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<io.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ioctl.h>
+	<tcp.h>
+	"curl_setup_once.h"
+
+1669217686 /home/freedom/curl-test/curl-master/lib/curl_config.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/config-win32ce.h
+
+1665959048 /home/freedom/curl-test/curl-master/lib/config-win32.h
+	<tcp.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/config-mac.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/config-riscos.h
+
+1666519242 /home/freedom/curl-test/curl-master/lib/config-amigaos.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/config-os400.h
+
+1665958725 /home/freedom/curl-test/curl-master/lib/config-plan9.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/setup-os400.h
+	<sys/socket.h>
+	<netdb.h>
+	<gskssl.h>
+	<qsoasync.h>
+	<gssapi.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/setup-vms.h
+	<stdlib.h>
+	<pwd.h>
+	<string.h>
+	<unixlib.h>
+	<netdb.h>
+	<openssl/evp.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/setup-win32.h
+	<winerror.h>
+	<windows.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<tchar.h>
+
+1665047999 /home/freedom/curl-test/curl-master/include/curl/system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1665047999 /home/freedom/curl-test/curl-master/include/curl/stdcheaders.h
+	<sys/types.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_setup_once.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<time.h>
+	<errno.h>
+	<sys/types.h>
+	<malloc.h>
+	<memory.h>
+	<sys/stat.h>
+	<sys/time.h>
+	<io.h>
+	<fcntl.h>
+	<stdbool.h>
+	<unistd.h>
+	<sys/socket.h>
+	"functypes.h"
+	"curl_ctype.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/functypes.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_ctype.h
+
+1667808401 /home/freedom/curl-test/curl-master/include/curl/curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"options.h"
+	"header.h"
+	"websockets.h"
+	"typecheck-gcc.h"
+
+1666764798 /home/freedom/curl-test/curl-master/include/curl/curlver.h
+
+1667808401 /home/freedom/curl-test/curl-master/include/curl/easy.h
+
+1665047999 /home/freedom/curl-test/curl-master/include/curl/multi.h
+	"curl.h"
+
+1665047999 /home/freedom/curl-test/curl-master/include/curl/urlapi.h
+	"curl.h"
+
+1665047999 /home/freedom/curl-test/curl-master/include/curl/options.h
+
+1665047999 /home/freedom/curl-test/curl-master/include/curl/header.h
+
+1665958888 /home/freedom/curl-test/curl-master/include/curl/websockets.h
+
+1665047999 /home/freedom/curl-test/curl-master/include/curl/typecheck-gcc.h
+
+1666022109 /home/freedom/curl-test/curl-master/lib/urldata.h
+	"curl_setup.h"
+	"cookie.h"
+	"psl.h"
+	"formdata.h"
+	<netinet/in.h>
+	<netinet/in6.h>
+	"timeval.h"
+	<curl/curl.h>
+	"http_chunks.h"
+	"hostip.h"
+	"hash.h"
+	"splay.h"
+	"dynbuf.h"
+	"mime.h"
+	"imap.h"
+	"pop3.h"
+	"smtp.h"
+	"ftp.h"
+	"file.h"
+	"vssh/ssh.h"
+	"http.h"
+	"rtsp.h"
+	"smb.h"
+	"mqtt.h"
+	"wildcard.h"
+	"multihandle.h"
+	"quic.h"
+	"c-hyper.h"
+	<gss.h>
+	<gssapi/gssapi.h>
+	<gssapi.h>
+	<gssapi/gssapi_generic.h>
+	<libssh2.h>
+	<libssh2_sftp.h>
+	"curl_sspi.h"
+	<gsasl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/cookie.h
+	"curl_setup.h"
+	<curl/curl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/psl.h
+	<libpsl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/formdata.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/timeval.h
+	"curl_setup.h"
+	"timediff.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/timediff.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/http_chunks.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/hostip.h
+	"curl_setup.h"
+	"hash.h"
+	"curl_addrinfo.h"
+	"timeval.h"
+	"asyn.h"
+	<setjmp.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/hash.h
+	"curl_setup.h"
+	<stddef.h>
+	"llist.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/llist.h
+	"curl_setup.h"
+	<stddef.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_addrinfo.h
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<in.h>
+	<inet.h>
+	<stdlib.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/asyn.h
+	"curl_setup.h"
+	"curl_addrinfo.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/splay.h
+	"curl_setup.h"
+	"timeval.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/dynbuf.h
+	<curl/curl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/mime.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/imap.h
+	"pingpong.h"
+	"curl_sasl.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/pingpong.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_sasl.h
+	<curl/curl.h>
+	"bufref.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/bufref.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/pop3.h
+	"pingpong.h"
+	"curl_sasl.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/smtp.h
+	"pingpong.h"
+	"curl_sasl.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/ftp.h
+	"curl_setup.h"
+	"pingpong.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/file.h
+
+1665958725 /home/freedom/curl-test/curl-master/lib/vssh/ssh.h
+	"curl_setup.h"
+	<libssh2.h>
+	<libssh2_sftp.h>
+	<libssh/libssh.h>
+	<libssh/sftp.h>
+	<wolfssh/ssh.h>
+	<wolfssh/wolfsftp.h>
+
+1665994626 /home/freedom/curl-test/curl-master/lib/http.h
+	"curl_setup.h"
+	"ws.h"
+	<nghttp2/nghttp2.h>
+	<stdint.h>
+	<pthread.h>
+
+1665958888 /home/freedom/curl-test/curl-master/lib/ws.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/rtsp.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/smb.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/mqtt.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/wildcard.h
+	"curl_setup.h"
+	<curl/curl.h>
+	"llist.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/multihandle.h
+	"llist.h"
+	"hash.h"
+	"conncache.h"
+	"psl.h"
+	"socketpair.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/conncache.h
+	<curl/curl.h>
+	"timeval.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/socketpair.h
+	"curl_setup.h"
+	<curl/curl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/quic.h
+	"curl_setup.h"
+	"vquic/ngtcp2.h"
+	"vquic/quiche.h"
+	"vquic/msh3.h"
+	"urldata.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vquic/ngtcp2.h
+	"curl_setup.h"
+	<netinet/udp.h>
+	<ngtcp2/ngtcp2_crypto.h>
+	<nghttp3/nghttp3.h>
+	<openssl/ssl.h>
+	<gnutls/gnutls.h>
+	<wolfssl/options.h>
+	<wolfssl/ssl.h>
+	<wolfssl/quic.h>
+	"urldata.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vquic/quiche.h
+	"curl_setup.h"
+	<quiche.h>
+	<openssl/ssl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vquic/msh3.h
+	"curl_setup.h"
+	<msh3.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/c-hyper.h
+	"curl_setup.h"
+	<hyper.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_sspi.h
+	"curl_setup.h"
+	<curl/curl.h>
+	<security.h>
+	<sspi.h>
+	<rpc.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/altsvc.h
+	"curl_setup.h"
+	<curl/curl.h>
+	"llist.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_get_line.h
+
+1665958888 /home/freedom/curl-test/curl-master/lib/strcase.h
+	<curl/curl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/parsedate.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/sendf.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/warnless.h
+	"curl_setup.h"
+	<curl/curl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/fopen.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/rename.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_printf.h
+	<curl/mprintf.h>
+
+1665047999 /home/freedom/curl-test/curl-master/include/curl/mprintf.h
+	<stdarg.h>
+	<stdio.h>
+	"curl.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_memory.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/memdebug.h
+	<curl/curl.h>
+	"functypes.h"
+
+1666519223 source:/home/freedom/curl-test/curl-master/lib/amigaos.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"hostip.h"
+	"amigaos.h"
+	<bsdsocket/socketbasetags.h>
+	<amitcp/socketbasetags.h>
+	<stabs.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<proto/bsdsocket.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/amigaos.h
+	"curl_setup.h"
+
+1665958888 source:/home/freedom/curl-test/curl-master/lib/asyn-ares.c
+	"curl_setup.h"
+	<limits.h>
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<in.h>
+	<inet.h>
+	<process.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"hash.h"
+	"share.h"
+	"url.h"
+	"multiif.h"
+	"inet_pton.h"
+	"connect.h"
+	"select.h"
+	"progress.h"
+	"timediff.h"
+	<ares.h>
+	<ares_version.h>
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/share.h
+	"curl_setup.h"
+	<curl/curl.h>
+	"cookie.h"
+	"psl.h"
+	"urldata.h"
+	"conncache.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/url.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/multiif.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/inet_pton.h
+	"curl_setup.h"
+	<arpa/inet.h>
+	<ws2tcpip.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/connect.h
+	"curl_setup.h"
+	"nonblock.h"
+	"sockaddr.h"
+	"timeval.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/nonblock.h
+	<curl/curl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/sockaddr.h
+	"curl_setup.h"
+
+1665959048 /home/freedom/curl-test/curl-master/lib/select.h
+	"curl_setup.h"
+	<poll.h>
+	<sys/poll.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/progress.h
+	"timeval.h"
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/asyn-thread.c
+	"curl_setup.h"
+	"socketpair.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<in.h>
+	<inet.h>
+	<pthread.h>
+	<process.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"hash.h"
+	"share.h"
+	"url.h"
+	"multiif.h"
+	"inet_ntop.h"
+	"curl_threads.h"
+	"connect.h"
+	"socketpair.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/inet_ntop.h
+	"curl_setup.h"
+	<arpa/inet.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_threads.h
+	"curl_setup.h"
+
+1665959048 source:/home/freedom/curl-test/curl-master/lib/base64.c
+	"curl_setup.h"
+	"urldata.h"
+	"warnless.h"
+	"curl_base64.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_base64.h
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/bufref.c
+	"curl_setup.h"
+	"urldata.h"
+	"bufref.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/c-hyper.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<sys/param.h>
+	<hyper.h>
+	"urldata.h"
+	"sendf.h"
+	"transfer.h"
+	"multiif.h"
+	"progress.h"
+	"content_encoding.h"
+	"ws.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/transfer.h
+
+1666074944 /home/freedom/curl-test/curl-master/lib/content_encoding.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/conncache.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"url.h"
+	"progress.h"
+	"multiif.h"
+	"sendf.h"
+	"conncache.h"
+	"share.h"
+	"sigpipe.h"
+	"connect.h"
+	"strcase.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/sigpipe.h
+	"curl_setup.h"
+	<signal.h>
+
+1666519242 source:/home/freedom/curl-test/curl-master/lib/connect.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<sys/un.h>
+	<linux/tcp.h>
+	<netinet/tcp.h>
+	<sys/ioctl.h>
+	<netdb.h>
+	<fcntl.h>
+	<arpa/inet.h>
+	<sys/filio.h>
+	<in.h>
+	<inet.h>
+	"urldata.h"
+	"sendf.h"
+	"if2ip.h"
+	"strerror.h"
+	"connect.h"
+	"select.h"
+	"url.h"
+	"multiif.h"
+	"sockaddr.h"
+	"inet_ntop.h"
+	"inet_pton.h"
+	"vtls/vtls.h"
+	"progress.h"
+	"warnless.h"
+	"conncache.h"
+	"multihandle.h"
+	"share.h"
+	"version_win32.h"
+	"quic.h"
+	"socks.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/if2ip.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/strerror.h
+	"urldata.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/vtls.h
+	"curl_setup.h"
+	"openssl.h"
+	"gtls.h"
+	"nssg.h"
+	"gskit.h"
+	"wolfssl.h"
+	"schannel.h"
+	"sectransp.h"
+	"mbedtls.h"
+	"bearssl.h"
+	"rustls.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/openssl.h
+	"curl_setup.h"
+	<openssl/ssl.h>
+	"urldata.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/gtls.h
+	"curl_setup.h"
+	"urldata.h"
+	<gnutls/gnutls.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/nssg.h
+	"curl_setup.h"
+	"urldata.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/gskit.h
+	"curl_setup.h"
+	"urldata.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/wolfssl.h
+	"curl_setup.h"
+
+1666707715 /home/freedom/curl-test/curl-master/lib/vtls/schannel.h
+	"curl_setup.h"
+	<subauth.h>
+	<wincrypt.h>
+	<schnlsp.h>
+	<schannel.h>
+	"curl_sspi.h"
+	"urldata.h"
+	<wincrypt.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/sectransp.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/mbedtls.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/bearssl.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/rustls.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/version_win32.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/socks.h
+	"curl_setup.h"
+
+1666074944 source:/home/freedom/curl-test/curl-master/lib/content_encoding.c
+	"curl_setup.h"
+	"urldata.h"
+	<curl/curl.h>
+	<stddef.h>
+	<zlib.h>
+	<brotli/decode.h>
+	<zstd.h>
+	"sendf.h"
+	"http.h"
+	"content_encoding.h"
+	"strdup.h"
+	"strcase.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/strdup.h
+	"curl_setup.h"
+
+1666618225 source:/home/freedom/curl-test/curl-master/lib/cookie.c
+	"curl_setup.h"
+	"urldata.h"
+	"cookie.h"
+	"psl.h"
+	"strtok.h"
+	"sendf.h"
+	"slist.h"
+	"share.h"
+	"strtoofft.h"
+	"strcase.h"
+	"curl_get_line.h"
+	"curl_memrchr.h"
+	"parsedate.h"
+	"rename.h"
+	"fopen.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/strtok.h
+	"curl_setup.h"
+	<stddef.h>
+	<string.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/slist.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/strtoofft.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_memrchr.h
+	"curl_setup.h"
+	<string.h>
+	<strings.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_addrinfo.c
+	"curl_setup.h"
+	<curl/curl.h>
+	<netinet/in.h>
+	<netinet/in6.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<sys/un.h>
+	<in.h>
+	<inet.h>
+	<stddef.h>
+	"curl_addrinfo.h"
+	"inet_pton.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_des.c
+	"curl_setup.h"
+	"curl_des.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_des.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_endian.c
+	"curl_setup.h"
+	"curl_endian.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_endian.h
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_fnmatch.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"curl_fnmatch.h"
+	"curl_memory.h"
+	"memdebug.h"
+	<fnmatch.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_fnmatch.h
+
+1666605654 source:/home/freedom/curl-test/curl-master/lib/curl_get_line.c
+	"curl_setup.h"
+	"curl_get_line.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_gethostname.c
+	"curl_setup.h"
+	"curl_gethostname.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_gethostname.h
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_gssapi.c
+	"curl_setup.h"
+	"curl_gssapi.h"
+	"sendf.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_gssapi.h
+	"curl_setup.h"
+	"urldata.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_memrchr.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"curl_memrchr.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_multibyte.c
+	"curl_setup.h"
+	"curl_multibyte.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_multibyte.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_ntlm_core.c
+	"curl_setup.h"
+	<openssl/opensslconf.h>
+	<openssl/des.h>
+	<openssl/md5.h>
+	<openssl/ssl.h>
+	<openssl/rand.h>
+	<wolfssl/options.h>
+	<wolfssl/openssl/des.h>
+	<wolfssl/openssl/md5.h>
+	<wolfssl/openssl/ssl.h>
+	<wolfssl/openssl/rand.h>
+	<nettle/des.h>
+	<nss.h>
+	<pk11pub.h>
+	<hasht.h>
+	<mbedtls/des.h>
+	<CommonCrypto/CommonCryptor.h>
+	<CommonCrypto/CommonDigest.h>
+	"cipher.mih"
+	<wincrypt.h>
+	"urldata.h"
+	"strcase.h"
+	"curl_ntlm_core.h"
+	"curl_md5.h"
+	"curl_hmac.h"
+	"warnless.h"
+	"curl_endian.h"
+	"curl_des.h"
+	"curl_md4.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_ntlm_core.h
+	"curl_setup.h"
+	<wolfssl/options.h>
+	<wolfssl/openssl/ssl.h>
+	<openssl/ssl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_md5.h
+	"curl_hmac.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_hmac.h
+	<curl/curl.h>
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_md4.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_ntlm_wb.c
+	"curl_setup.h"
+	<sys/wait.h>
+	<signal.h>
+	<pwd.h>
+	"urldata.h"
+	"sendf.h"
+	"select.h"
+	"vauth/ntlm.h"
+	"curl_ntlm_core.h"
+	"curl_ntlm_wb.h"
+	"url.h"
+	"strerror.h"
+	"strdup.h"
+	"strcase.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vauth/ntlm.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_ntlm_wb.h
+	"curl_setup.h"
+
+1665959048 source:/home/freedom/curl-test/curl-master/lib/curl_path.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"curl_memory.h"
+	"curl_path.h"
+	"escape.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_path.h
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/escape.h
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_range.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"curl_range.h"
+	"sendf.h"
+	"strtoofft.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_range.h
+	"curl_setup.h"
+	"urldata.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_rtmp.c
+	"curl_setup.h"
+	"curl_rtmp.h"
+	"urldata.h"
+	"nonblock.h"
+	"progress.h"
+	"transfer.h"
+	"warnless.h"
+	<curl/curl.h>
+	<librtmp/rtmp.h>
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_rtmp.h
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_sasl.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"curl_base64.h"
+	"curl_md5.h"
+	"vauth/vauth.h"
+	"vtls/vtls.h"
+	"curl_hmac.h"
+	"curl_sasl.h"
+	"warnless.h"
+	"strtok.h"
+	"sendf.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vauth/vauth.h
+	<curl/curl.h>
+	"bufref.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_sspi.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"curl_sspi.h"
+	"curl_multibyte.h"
+	"system_win32.h"
+	"version_win32.h"
+	"warnless.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/system_win32.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/curl_threads.c
+	"curl_setup.h"
+	<curl/curl.h>
+	<pthread.h>
+	<process.h>
+	"curl_threads.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/dict.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<sys/param.h>
+	<sys/select.h>
+	<unistd.h>
+	"urldata.h"
+	<curl/curl.h>
+	"transfer.h"
+	"sendf.h"
+	"escape.h"
+	"progress.h"
+	"dict.h"
+	"curl_printf.h"
+	"strcase.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/dict.h
+
+1667807341 source:/home/freedom/curl-test/curl-master/lib/doh.c
+	"curl_setup.h"
+	"urldata.h"
+	"curl_addrinfo.h"
+	"doh.h"
+	"sendf.h"
+	"multiif.h"
+	"url.h"
+	"share.h"
+	"curl_base64.h"
+	"connect.h"
+	"strdup.h"
+	"dynbuf.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/doh.h
+	"urldata.h"
+	"curl_addrinfo.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/dynbuf.c
+	"curl_setup.h"
+	"dynbuf.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1667808400 source:/home/freedom/curl-test/curl-master/lib/easy.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<sys/param.h>
+	"urldata.h"
+	<curl/curl.h>
+	"transfer.h"
+	"vtls/vtls.h"
+	"url.h"
+	"getinfo.h"
+	"hostip.h"
+	"share.h"
+	"strdup.h"
+	"progress.h"
+	"easyif.h"
+	"multiif.h"
+	"select.h"
+	"sendf.h"
+	"connect.h"
+	"slist.h"
+	"mime.h"
+	"amigaos.h"
+	"warnless.h"
+	"multiif.h"
+	"sigpipe.h"
+	"vssh/ssh.h"
+	"setopt.h"
+	"http_digest.h"
+	"system_win32.h"
+	"http2.h"
+	"dynbuf.h"
+	"altsvc.h"
+	"hsts.h"
+	"easy_lock.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/getinfo.h
+
+1665958888 /home/freedom/curl-test/curl-master/lib/easyif.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/setopt.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/http_digest.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/http2.h
+	"curl_setup.h"
+	"http.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/hsts.h
+	"curl_setup.h"
+	<curl/curl.h>
+	"llist.h"
+
+1666519242 /home/freedom/curl-test/curl-master/lib/easy_lock.h
+	"curl_setup.h"
+	<stdatomic.h>
+	<sched.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/easygetopt.c
+	"curl_setup.h"
+	"strcase.h"
+	"easyoptions.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/easyoptions.h
+	<curl/curl.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/easyoptions.c
+	"curl_setup.h"
+	"easyoptions.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/escape.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"warnless.h"
+	"escape.h"
+	"strdup.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/file.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<sys/param.h>
+	<fcntl.h>
+	"strtoofft.h"
+	"urldata.h"
+	<curl/curl.h>
+	"progress.h"
+	"sendf.h"
+	"escape.h"
+	"file.h"
+	"speedcheck.h"
+	"getinfo.h"
+	"transfer.h"
+	"url.h"
+	"parsedate.h"
+	"warnless.h"
+	"curl_range.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/speedcheck.h
+	"curl_setup.h"
+	"timeval.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/fileinfo.c
+	"curl_setup.h"
+	"strdup.h"
+	"fileinfo.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/fileinfo.h
+	<curl/curl.h>
+	"llist.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/fopen.c
+	"curl_setup.h"
+	<fcntl.h>
+	"urldata.h"
+	"rand.h"
+	"fopen.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/rand.h
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/formdata.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"formdata.h"
+	<libgen.h>
+	"urldata.h"
+	"mime.h"
+	"vtls/vtls.h"
+	"strcase.h"
+	"sendf.h"
+	"strdup.h"
+	"rand.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/ftp.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/utsname.h>
+	<netdb.h>
+	<in.h>
+	<inet.h>
+	<curl/curl.h>
+	"urldata.h"
+	"sendf.h"
+	"if2ip.h"
+	"hostip.h"
+	"progress.h"
+	"transfer.h"
+	"escape.h"
+	"http.h"
+	"ftp.h"
+	"fileinfo.h"
+	"ftplistparser.h"
+	"curl_range.h"
+	"curl_krb5.h"
+	"strtoofft.h"
+	"strcase.h"
+	"vtls/vtls.h"
+	"connect.h"
+	"strerror.h"
+	"inet_ntop.h"
+	"inet_pton.h"
+	"select.h"
+	"parsedate.h"
+	"sockaddr.h"
+	"multiif.h"
+	"url.h"
+	"strcase.h"
+	"speedcheck.h"
+	"warnless.h"
+	"http_proxy.h"
+	"socks.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/ftplistparser.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_krb5.h
+
+1665051776 /home/freedom/curl-test/curl-master/lib/http_proxy.h
+	"curl_setup.h"
+	"urldata.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/ftplistparser.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"fileinfo.h"
+	"llist.h"
+	"strtoofft.h"
+	"ftp.h"
+	"ftplistparser.h"
+	"curl_fnmatch.h"
+	"curl_memory.h"
+	"multiif.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/getenv.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/getinfo.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"getinfo.h"
+	"vtls/vtls.h"
+	"connect.h"
+	"progress.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/gopher.c
+	"curl_setup.h"
+	"urldata.h"
+	<curl/curl.h>
+	"transfer.h"
+	"sendf.h"
+	"connect.h"
+	"progress.h"
+	"gopher.h"
+	"select.h"
+	"strdup.h"
+	"vtls/vtls.h"
+	"url.h"
+	"escape.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/gopher.h
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/h2h3.c
+	"curl_setup.h"
+	"urldata.h"
+	"h2h3.h"
+	"transfer.h"
+	"sendf.h"
+	"strcase.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/h2h3.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/hash.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"hash.h"
+	"llist.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/headers.c
+	"curl_setup.h"
+	"urldata.h"
+	"strdup.h"
+	"strcase.h"
+	"headers.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/headers.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/hmac.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"curl_hmac.h"
+	"curl_memory.h"
+	"warnless.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/hostasyn.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<in.h>
+	<inet.h>
+	<process.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"hash.h"
+	"share.h"
+	"url.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666519223 source:/home/freedom/curl-test/curl-master/lib/hostip.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netinet/in6.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<in.h>
+	<inet.h>
+	<setjmp.h>
+	<signal.h>
+	<process.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"hash.h"
+	"rand.h"
+	"share.h"
+	"url.h"
+	"inet_ntop.h"
+	"inet_pton.h"
+	"multiif.h"
+	"doh.h"
+	"warnless.h"
+	"strcase.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+	<SystemConfiguration/SCDynamicStoreCopySpecific.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/hostip4.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<in.h>
+	<inet.h>
+	<process.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"hash.h"
+	"share.h"
+	"url.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/hostip6.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<in.h>
+	<inet.h>
+	<process.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"hash.h"
+	"share.h"
+	"url.h"
+	"inet_pton.h"
+	"connect.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/hostsyn.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<in.h>
+	<inet.h>
+	<process.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"hash.h"
+	"share.h"
+	"url.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/hsts.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"llist.h"
+	"hsts.h"
+	"curl_get_line.h"
+	"strcase.h"
+	"sendf.h"
+	"strtoofft.h"
+	"parsedate.h"
+	"fopen.h"
+	"rename.h"
+	"strtoofft.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666074944 source:/home/freedom/curl-test/curl-master/lib/http.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<sys/param.h>
+	<hyper.h>
+	"urldata.h"
+	<curl/curl.h>
+	"transfer.h"
+	"sendf.h"
+	"formdata.h"
+	"mime.h"
+	"progress.h"
+	"curl_base64.h"
+	"cookie.h"
+	"vauth/vauth.h"
+	"vtls/vtls.h"
+	"http_digest.h"
+	"http_ntlm.h"
+	"curl_ntlm_wb.h"
+	"http_negotiate.h"
+	"http_aws_sigv4.h"
+	"url.h"
+	"share.h"
+	"hostip.h"
+	"http.h"
+	"select.h"
+	"parsedate.h"
+	"strtoofft.h"
+	"multiif.h"
+	"strcase.h"
+	"content_encoding.h"
+	"http_proxy.h"
+	"warnless.h"
+	"http2.h"
+	"connect.h"
+	"strdup.h"
+	"altsvc.h"
+	"hsts.h"
+	"ws.h"
+	"c-hyper.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/http_ntlm.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/http_negotiate.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/http_aws_sigv4.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/http2.c
+	"curl_setup.h"
+	<nghttp2/nghttp2.h>
+	"urldata.h"
+	"http2.h"
+	"http.h"
+	"sendf.h"
+	"select.h"
+	"curl_base64.h"
+	"strcase.h"
+	"multiif.h"
+	"url.h"
+	"connect.h"
+	"strtoofft.h"
+	"strdup.h"
+	"transfer.h"
+	"dynbuf.h"
+	"h2h3.h"
+	"headers.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+	<curl/curl.h>
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/http_aws_sigv4.c
+	"curl_setup.h"
+	"urldata.h"
+	"strcase.h"
+	"strdup.h"
+	"http_aws_sigv4.h"
+	"curl_sha256.h"
+	"transfer.h"
+	"strcase.h"
+	"parsedate.h"
+	"sendf.h"
+	<time.h>
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+	"slist.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_sha256.h
+	<curl/curl.h>
+	"curl_hmac.h"
+	<wolfssl/options.h>
+	<wolfssl/openssl/sha.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/http_chunks.c
+	"curl_setup.h"
+	"urldata.h"
+	"sendf.h"
+	"dynbuf.h"
+	"content_encoding.h"
+	"http.h"
+	"strtoofft.h"
+	"warnless.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/http_digest.c
+	"curl_setup.h"
+	"urldata.h"
+	"strcase.h"
+	"vauth/vauth.h"
+	"http_digest.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/http_negotiate.c
+	"curl_setup.h"
+	"urldata.h"
+	"sendf.h"
+	"http_negotiate.h"
+	"vauth/vauth.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/http_ntlm.c
+	"curl_setup.h"
+	"urldata.h"
+	"sendf.h"
+	"strcase.h"
+	"http_ntlm.h"
+	"curl_ntlm_core.h"
+	"curl_ntlm_wb.h"
+	"curl_base64.h"
+	"vauth/vauth.h"
+	"url.h"
+	"curl_sspi.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666618438 source:/home/freedom/curl-test/curl-master/lib/http_proxy.c
+	"curl_setup.h"
+	"http_proxy.h"
+	<curl/curl.h>
+	<hyper.h>
+	"sendf.h"
+	"http.h"
+	"url.h"
+	"select.h"
+	"progress.h"
+	"connect.h"
+	"curlx.h"
+	"vtls/vtls.h"
+	"transfer.h"
+	"multiif.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curlx.h
+	<curl/mprintf.h>
+	"strcase.h"
+	"strtoofft.h"
+	"nonblock.h"
+	"warnless.h"
+	"curl_multibyte.h"
+	"version_win32.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/idn_win32.c
+	"curl_setup.h"
+	"curl_multibyte.h"
+	"curl_memory.h"
+	"warnless.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/if2ip.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<netdb.h>
+	<sys/sockio.h>
+	<ifaddrs.h>
+	<stropts.h>
+	<inet.h>
+	"inet_ntop.h"
+	"strcase.h"
+	"if2ip.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/imap.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/utsname.h>
+	<netdb.h>
+	<in.h>
+	<inet.h>
+	<curl/curl.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"progress.h"
+	"transfer.h"
+	"escape.h"
+	"http.h"
+	"socks.h"
+	"imap.h"
+	"mime.h"
+	"strtoofft.h"
+	"strcase.h"
+	"vtls/vtls.h"
+	"connect.h"
+	"select.h"
+	"multiif.h"
+	"url.h"
+	"strcase.h"
+	"bufref.h"
+	"curl_sasl.h"
+	"warnless.h"
+	"curl_ctype.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/inet_ntop.c
+	"curl_setup.h"
+	<sys/param.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	"inet_ntop.h"
+	"curl_printf.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/inet_pton.c
+	"curl_setup.h"
+	<sys/param.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	"inet_pton.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/krb5.c
+	"curl_setup.h"
+	<netdb.h>
+	"urldata.h"
+	"curl_base64.h"
+	"ftp.h"
+	"curl_gssapi.h"
+	"sendf.h"
+	"curl_krb5.h"
+	"warnless.h"
+	"strcase.h"
+	"strdup.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/ldap.c
+	"curl_setup.h"
+	<wincrypt.h>
+	<winldap.h>
+	<winber.h>
+	<lber.h>
+	<ldap.h>
+	<ldap_ssl.h>
+	"urldata.h"
+	<curl/curl.h>
+	"sendf.h"
+	"escape.h"
+	"progress.h"
+	"transfer.h"
+	"strcase.h"
+	"strtok.h"
+	"curl_ldap.h"
+	"curl_multibyte.h"
+	"curl_base64.h"
+	"connect.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/curl_ldap.h
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/llist.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"llist.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/md4.c
+	"curl_setup.h"
+	"curl_md4.h"
+	"warnless.h"
+	<openssl/opensslconf.h>
+	<wolfssl/options.h>
+	<mbedtls/version.h>
+	<mbedtls/mbedtls_config.h>
+	<mbedtls/config.h>
+	<nettle/md4.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<wolfssl/openssl/md4.h>
+	<openssl/md4.h>
+	<CommonCrypto/CommonDigest.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<wincrypt.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<mbedtls/md4.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<string.h>
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/md5.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"curl_md5.h"
+	"curl_hmac.h"
+	"warnless.h"
+	<mbedtls/version.h>
+	<openssl/opensslconf.h>
+	<wolfssl/options.h>
+	<nettle/md5.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<openssl/md5.h>
+	<wolfssl/openssl/md5.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<mbedtls/md5.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<CommonCrypto/CommonDigest.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<wincrypt.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<string.h>
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/memdebug.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/mime.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"mime.h"
+	"warnless.h"
+	"urldata.h"
+	"sendf.h"
+	<libgen.h>
+	"rand.h"
+	"slist.h"
+	"strcase.h"
+	"dynbuf.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+	<fabdef.h>
+
+1666111092 source:/home/freedom/curl-test/curl-master/lib/mprintf.c
+	"curl_setup.h"
+	"dynbuf.h"
+	<curl/mprintf.h>
+	"curl_memory.h"
+	"memdebug.h"
+
+1666111092 source:/home/freedom/curl-test/curl-master/lib/mqtt.c
+	"curl_setup.h"
+	"urldata.h"
+	<curl/curl.h>
+	"transfer.h"
+	"sendf.h"
+	"progress.h"
+	"mqtt.h"
+	"select.h"
+	"strdup.h"
+	"url.h"
+	"escape.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"multiif.h"
+	"rand.h"
+	"memdebug.h"
+
+1666618225 source:/home/freedom/curl-test/curl-master/lib/multi.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"transfer.h"
+	"url.h"
+	"connect.h"
+	"progress.h"
+	"easyif.h"
+	"share.h"
+	"psl.h"
+	"multiif.h"
+	"sendf.h"
+	"timeval.h"
+	"http.h"
+	"select.h"
+	"warnless.h"
+	"speedcheck.h"
+	"conncache.h"
+	"multihandle.h"
+	"sigpipe.h"
+	"vtls/vtls.h"
+	"http_proxy.h"
+	"http2.h"
+	"socketpair.h"
+	"socks.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666605654 source:/home/freedom/curl-test/curl-master/lib/netrc.c
+	"curl_setup.h"
+	<pwd.h>
+	<curl/curl.h>
+	"netrc.h"
+	"strtok.h"
+	"strcase.h"
+	"curl_get_line.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665959048 /home/freedom/curl-test/curl-master/lib/netrc.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/nonblock.c
+	"curl_setup.h"
+	<sys/ioctl.h>
+	<fcntl.h>
+	<sys/filio.h>
+	<in.h>
+	<inet.h>
+	"nonblock.h"
+
+1666764612 source:/home/freedom/curl-test/curl-master/lib/noproxy.c
+	"curl_setup.h"
+	"inet_pton.h"
+	"strcase.h"
+	"noproxy.h"
+	<netinet/in.h>
+
+1666519242 /home/freedom/curl-test/curl-master/lib/noproxy.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/openldap.c
+	"curl_setup.h"
+	<ldap.h>
+	"urldata.h"
+	<curl/curl.h>
+	"sendf.h"
+	"vtls/vtls.h"
+	"transfer.h"
+	"curl_ldap.h"
+	"curl_base64.h"
+	"connect.h"
+	"curl_sasl.h"
+	"strcase.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/parsedate.c
+	"curl_setup.h"
+	<limits.h>
+	<curl/curl.h>
+	"strcase.h"
+	"warnless.h"
+	"parsedate.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/pingpong.c
+	"curl_setup.h"
+	"urldata.h"
+	"sendf.h"
+	"select.h"
+	"progress.h"
+	"speedcheck.h"
+	"pingpong.h"
+	"multiif.h"
+	"vtls/vtls.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/pop3.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/utsname.h>
+	<netdb.h>
+	<in.h>
+	<inet.h>
+	<curl/curl.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"progress.h"
+	"transfer.h"
+	"escape.h"
+	"http.h"
+	"socks.h"
+	"pop3.h"
+	"strtoofft.h"
+	"strcase.h"
+	"vtls/vtls.h"
+	"connect.h"
+	"select.h"
+	"multiif.h"
+	"url.h"
+	"bufref.h"
+	"curl_sasl.h"
+	"curl_md5.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/progress.c
+	"curl_setup.h"
+	"urldata.h"
+	"sendf.h"
+	"multiif.h"
+	"progress.h"
+	"timeval.h"
+	"curl_printf.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/psl.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"psl.h"
+	"share.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/rand.c
+	"curl_setup.h"
+	<fcntl.h>
+	<curl/curl.h>
+	"vtls/vtls.h"
+	"sendf.h"
+	"rand.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+	<bcrypt.h>
+	<wincrypt.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/rename.c
+	"rename.h"
+	"curl_setup.h"
+	"curl_multibyte.h"
+	"timeval.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/rtsp.c
+	"curl_setup.h"
+	"urldata.h"
+	<curl/curl.h>
+	"transfer.h"
+	"sendf.h"
+	"multiif.h"
+	"http.h"
+	"url.h"
+	"progress.h"
+	"rtsp.h"
+	"strcase.h"
+	"select.h"
+	"connect.h"
+	"strdup.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/select.c
+	"curl_setup.h"
+	<limits.h>
+	<sys/select.h>
+	<unistd.h>
+	<dos.h>
+	<curl/curl.h>
+	"urldata.h"
+	"connect.h"
+	"select.h"
+	"timediff.h"
+	"warnless.h"
+
+1665958888 source:/home/freedom/curl-test/curl-master/lib/sendf.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<linux/tcp.h>
+	<netinet/tcp.h>
+	<curl/curl.h>
+	"urldata.h"
+	"sendf.h"
+	"connect.h"
+	"vtls/vtls.h"
+	"vssh/ssh.h"
+	"easyif.h"
+	"multiif.h"
+	"strerror.h"
+	"select.h"
+	"strdup.h"
+	"http2.h"
+	"headers.h"
+	"ws.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666010893 source:/home/freedom/curl-test/curl-master/lib/setopt.c
+	"curl_setup.h"
+	<limits.h>
+	<netinet/in.h>
+	<linux/tcp.h>
+	<netinet/tcp.h>
+	"urldata.h"
+	"url.h"
+	"progress.h"
+	"content_encoding.h"
+	"strcase.h"
+	"share.h"
+	"vtls/vtls.h"
+	"warnless.h"
+	"sendf.h"
+	"http2.h"
+	"setopt.h"
+	"multiif.h"
+	"altsvc.h"
+	"hsts.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/sha256.c
+	"curl_setup.h"
+	"warnless.h"
+	"curl_sha256.h"
+	"curl_hmac.h"
+	<wolfssl/options.h>
+	<openssl/opensslv.h>
+	<mbedtls/version.h>
+	<openssl/evp.h>
+	<wolfssl/openssl/evp.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<nettle/sha.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<mbedtls/sha256.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<CommonCrypto/CommonDigest.h>
+	"curl_memory.h"
+	"memdebug.h"
+	<wincrypt.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/share.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"share.h"
+	"psl.h"
+	"vtls/vtls.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/slist.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"slist.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665958888 source:/home/freedom/curl-test/curl-master/lib/smb.c
+	"curl_setup.h"
+	<process.h>
+	"smb.h"
+	"urldata.h"
+	"sendf.h"
+	"multiif.h"
+	"connect.h"
+	"progress.h"
+	"transfer.h"
+	"vtls/vtls.h"
+	"curl_ntlm_core.h"
+	"escape.h"
+	"curl_endian.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/smtp.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/utsname.h>
+	<netdb.h>
+	<in.h>
+	<inet.h>
+	<curl/curl.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"progress.h"
+	"transfer.h"
+	"escape.h"
+	"http.h"
+	"mime.h"
+	"socks.h"
+	"smtp.h"
+	"strtoofft.h"
+	"strcase.h"
+	"vtls/vtls.h"
+	"connect.h"
+	"select.h"
+	"multiif.h"
+	"url.h"
+	"curl_gethostname.h"
+	"bufref.h"
+	"curl_sasl.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/socketpair.c
+	"curl_setup.h"
+	"socketpair.h"
+	<string.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<windows.h>
+	<io.h>
+	<netdb.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	"nonblock.h"
+	"timeval.h"
+	"select.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/socks.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<arpa/inet.h>
+	"urldata.h"
+	"sendf.h"
+	"select.h"
+	"connect.h"
+	"timeval.h"
+	"socks.h"
+	"multiif.h"
+	"inet_pton.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/socks_gssapi.c
+	"curl_setup.h"
+	"curl_gssapi.h"
+	"urldata.h"
+	"sendf.h"
+	"connect.h"
+	"timeval.h"
+	"socks.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/socks_sspi.c
+	"curl_setup.h"
+	"urldata.h"
+	"sendf.h"
+	"connect.h"
+	"strerror.h"
+	"timeval.h"
+	"socks.h"
+	"curl_sspi.h"
+	"curl_multibyte.h"
+	"warnless.h"
+	"strdup.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/speedcheck.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"sendf.h"
+	"multiif.h"
+	"speedcheck.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/splay.c
+	"curl_setup.h"
+	"splay.h"
+
+1665958888 source:/home/freedom/curl-test/curl-master/lib/strcase.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"strcase.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/strdup.c
+	"curl_setup.h"
+	<curl/curl.h>
+	<wchar.h>
+	"strdup.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/strerror.c
+	"curl_setup.h"
+	<curl/curl.h>
+	<idn2.h>
+	"curl_sspi.h"
+	"strerror.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/strtok.c
+	"curl_setup.h"
+	<stddef.h>
+	"strtok.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/strtoofft.c
+	<errno.h>
+	"curl_setup.h"
+	"strtoofft.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/system_win32.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"system_win32.h"
+	"version_win32.h"
+	"curl_sspi.h"
+	"warnless.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/telnet.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<sys/param.h>
+	"urldata.h"
+	<curl/curl.h>
+	"transfer.h"
+	"sendf.h"
+	"telnet.h"
+	"connect.h"
+	"progress.h"
+	"system_win32.h"
+	"arpa_telnet.h"
+	"select.h"
+	"strcase.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/telnet.h
+
+1665047999 /home/freedom/curl-test/curl-master/lib/arpa_telnet.h
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/tftp.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<sys/param.h>
+	"urldata.h"
+	<curl/curl.h>
+	"transfer.h"
+	"sendf.h"
+	"tftp.h"
+	"progress.h"
+	"connect.h"
+	"strerror.h"
+	"sockaddr.h"
+	"multiif.h"
+	"url.h"
+	"strcase.h"
+	"speedcheck.h"
+	"select.h"
+	"escape.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/tftp.h
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/timediff.c
+	"timediff.h"
+	<limits.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/timeval.c
+	"timeval.h"
+	<stdint.h>
+	<mach/mach_time.h>
+
+1666022109 source:/home/freedom/curl-test/curl-master/lib/transfer.c
+	"curl_setup.h"
+	"strtoofft.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<sys/ioctl.h>
+	<signal.h>
+	<sys/param.h>
+	<sys/select.h>
+	<unistd.h>
+	"urldata.h"
+	<curl/curl.h>
+	"netrc.h"
+	"content_encoding.h"
+	"hostip.h"
+	"transfer.h"
+	"sendf.h"
+	"speedcheck.h"
+	"progress.h"
+	"http.h"
+	"url.h"
+	"getinfo.h"
+	"vtls/vtls.h"
+	"select.h"
+	"multiif.h"
+	"connect.h"
+	"http2.h"
+	"mime.h"
+	"strcase.h"
+	"urlapi-int.h"
+	"hsts.h"
+	"setopt.h"
+	"headers.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/urlapi-int.h
+	"curl_setup.h"
+
+1666618438 source:/home/freedom/curl-test/curl-master/lib/url.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<net/if.h>
+	<Iphlpapi.h>
+	<sys/ioctl.h>
+	<sys/param.h>
+	<in.h>
+	<inet.h>
+	<sys/un.h>
+	<limits.h>
+	<idn2.h>
+	"doh.h"
+	"urldata.h"
+	"netrc.h"
+	"formdata.h"
+	"mime.h"
+	"vtls/vtls.h"
+	"hostip.h"
+	"transfer.h"
+	"sendf.h"
+	"progress.h"
+	"cookie.h"
+	"strcase.h"
+	"strerror.h"
+	"escape.h"
+	"strtok.h"
+	"share.h"
+	"content_encoding.h"
+	"http_digest.h"
+	"http_negotiate.h"
+	"select.h"
+	"multiif.h"
+	"easyif.h"
+	"speedcheck.h"
+	"warnless.h"
+	"getinfo.h"
+	"urlapi-int.h"
+	"system_win32.h"
+	"hsts.h"
+	"noproxy.h"
+	"ftp.h"
+	"dict.h"
+	"telnet.h"
+	"tftp.h"
+	"http.h"
+	"http2.h"
+	"file.h"
+	"curl_ldap.h"
+	"vssh/ssh.h"
+	"imap.h"
+	"url.h"
+	"connect.h"
+	"inet_ntop.h"
+	"http_ntlm.h"
+	"curl_rtmp.h"
+	"gopher.h"
+	"mqtt.h"
+	"http_proxy.h"
+	"conncache.h"
+	"multihandle.h"
+	"strdup.h"
+	"setopt.h"
+	"altsvc.h"
+	"dynbuf.h"
+	"headers.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666519242 source:/home/freedom/curl-test/curl-master/lib/urlapi.c
+	"curl_setup.h"
+	"urldata.h"
+	"urlapi-int.h"
+	"strcase.h"
+	"url.h"
+	"escape.h"
+	"curl_ctype.h"
+	"inet_pton.h"
+	"inet_ntop.h"
+	"strdup.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/cleartext.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"vauth/vauth.h"
+	"curl_md5.h"
+	"warnless.h"
+	"strtok.h"
+	"sendf.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/cram.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"vauth/vauth.h"
+	"curl_hmac.h"
+	"curl_md5.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/digest.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"vauth/vauth.h"
+	"vauth/digest.h"
+	"urldata.h"
+	"curl_base64.h"
+	"curl_hmac.h"
+	"curl_md5.h"
+	"curl_sha256.h"
+	"vtls/vtls.h"
+	"warnless.h"
+	"strtok.h"
+	"strcase.h"
+	"curl_printf.h"
+	"rand.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vauth/digest.h
+	<curl/curl.h>
+
+1665958888 source:/home/freedom/curl-test/curl-master/lib/vauth/digest_sspi.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"vauth/vauth.h"
+	"vauth/digest.h"
+	"urldata.h"
+	"warnless.h"
+	"curl_multibyte.h"
+	"sendf.h"
+	"strdup.h"
+	"strcase.h"
+	"strerror.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/gsasl.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"vauth/vauth.h"
+	"urldata.h"
+	"sendf.h"
+	<gsasl.h>
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/krb5_gssapi.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"vauth/vauth.h"
+	"curl_sasl.h"
+	"urldata.h"
+	"curl_gssapi.h"
+	"sendf.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/krb5_sspi.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"vauth/vauth.h"
+	"urldata.h"
+	"warnless.h"
+	"curl_multibyte.h"
+	"sendf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/ntlm.c
+	"curl_setup.h"
+	"urldata.h"
+	"sendf.h"
+	"curl_ntlm_core.h"
+	"curl_gethostname.h"
+	"curl_multibyte.h"
+	"curl_md5.h"
+	"warnless.h"
+	"rand.h"
+	"vtls/vtls.h"
+	"vtls/nssg.h"
+	"vauth/vauth.h"
+	"vauth/ntlm.h"
+	"curl_endian.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/ntlm_sspi.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"vauth/vauth.h"
+	"urldata.h"
+	"curl_ntlm_core.h"
+	"warnless.h"
+	"curl_multibyte.h"
+	"sendf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/oauth2.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"vauth/vauth.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/spnego_gssapi.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"vauth/vauth.h"
+	"urldata.h"
+	"curl_base64.h"
+	"curl_gssapi.h"
+	"warnless.h"
+	"curl_multibyte.h"
+	"sendf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/spnego_sspi.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"vauth/vauth.h"
+	"urldata.h"
+	"curl_base64.h"
+	"warnless.h"
+	"curl_multibyte.h"
+	"sendf.h"
+	"strerror.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vauth/vauth.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"vauth.h"
+	"urldata.h"
+	"strcase.h"
+	"curl_multibyte.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665958725 source:/home/freedom/curl-test/curl-master/lib/version.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"vtls/vtls.h"
+	"http2.h"
+	"vssh/ssh.h"
+	"quic.h"
+	"curl_printf.h"
+	"easy_lock.h"
+	<ares.h>
+	<idn2.h>
+	<libpsl.h>
+	<librtmp/rtmp.h>
+	<zlib.h>
+	<brotli/decode.h>
+	<zstd.h>
+	<gsasl.h>
+	<ldap.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/version_win32.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"version_win32.h"
+	"warnless.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vquic/msh3.c
+	"curl_setup.h"
+	"urldata.h"
+	"timeval.h"
+	"multiif.h"
+	"sendf.h"
+	"connect.h"
+	"h2h3.h"
+	"msh3.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666111092 source:/home/freedom/curl-test/curl-master/lib/vquic/ngtcp2.c
+	"curl_setup.h"
+	<ngtcp2/ngtcp2.h>
+	<nghttp3/nghttp3.h>
+	<openssl/err.h>
+	<ngtcp2/ngtcp2_crypto_boringssl.h>
+	<ngtcp2/ngtcp2_crypto_openssl.h>
+	"vtls/openssl.h"
+	<ngtcp2/ngtcp2_crypto_gnutls.h>
+	"vtls/gtls.h"
+	<ngtcp2/ngtcp2_crypto_wolfssl.h>
+	"vtls/wolfssl.h"
+	"urldata.h"
+	"sendf.h"
+	"strdup.h"
+	"rand.h"
+	"ngtcp2.h"
+	"multiif.h"
+	"strcase.h"
+	"connect.h"
+	"strerror.h"
+	"dynbuf.h"
+	"vquic.h"
+	"h2h3.h"
+	"vtls/keylog.h"
+	"vtls/vtls.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vquic/vquic.h
+	"curl_setup.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/keylog.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vquic/quiche.c
+	"curl_setup.h"
+	<quiche.h>
+	<openssl/err.h>
+	<openssl/ssl.h>
+	"urldata.h"
+	"sendf.h"
+	"strdup.h"
+	"rand.h"
+	"quic.h"
+	"strcase.h"
+	"multiif.h"
+	"connect.h"
+	"strerror.h"
+	"vquic.h"
+	"transfer.h"
+	"h2h3.h"
+	"vtls/openssl.h"
+	"vtls/keylog.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vquic/vquic.c
+	"curl_setup.h"
+	<fcntl.h>
+	"urldata.h"
+	"dynbuf.h"
+	"curl_printf.h"
+	"vquic.h"
+
+1665959048 source:/home/freedom/curl-test/curl-master/lib/vssh/libssh.c
+	"curl_setup.h"
+	<limits.h>
+	<libssh/libssh.h>
+	<libssh/sftp.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/utsname.h>
+	<netdb.h>
+	<in.h>
+	<inet.h>
+	<curl/curl.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"progress.h"
+	"transfer.h"
+	"escape.h"
+	"http.h"
+	"ssh.h"
+	"url.h"
+	"speedcheck.h"
+	"getinfo.h"
+	"strdup.h"
+	"strcase.h"
+	"vtls/vtls.h"
+	"connect.h"
+	"inet_ntop.h"
+	"parsedate.h"
+	"sockaddr.h"
+	"strtoofft.h"
+	"multiif.h"
+	"select.h"
+	"warnless.h"
+	"curl_path.h"
+	<sys/stat.h>
+	<unistd.h>
+	<fcntl.h>
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/vssh/libssh2.c
+	"curl_setup.h"
+	<limits.h>
+	<libssh2.h>
+	<libssh2_sftp.h>
+	<fcntl.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/utsname.h>
+	<netdb.h>
+	<in.h>
+	<inet.h>
+	<curl/curl.h>
+	"urldata.h"
+	"sendf.h"
+	"hostip.h"
+	"progress.h"
+	"transfer.h"
+	"escape.h"
+	"http.h"
+	"ssh.h"
+	"url.h"
+	"speedcheck.h"
+	"getinfo.h"
+	"strdup.h"
+	"strcase.h"
+	"vtls/vtls.h"
+	"connect.h"
+	"inet_ntop.h"
+	"parsedate.h"
+	"sockaddr.h"
+	"strtoofft.h"
+	"multiif.h"
+	"select.h"
+	"warnless.h"
+	"curl_path.h"
+	"strcase.h"
+	<curl_base64.h>
+	<curl_sha256.h>
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vssh/wolfssh.c
+	"curl_setup.h"
+	<limits.h>
+	<wolfssh/ssh.h>
+	<wolfssh/wolfsftp.h>
+	"urldata.h"
+	"connect.h"
+	"sendf.h"
+	"progress.h"
+	"curl_path.h"
+	"strtoofft.h"
+	"transfer.h"
+	"speedcheck.h"
+	"select.h"
+	"multiif.h"
+	"warnless.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/bearssl.c
+	"curl_setup.h"
+	<bearssl.h>
+	"bearssl.h"
+	"urldata.h"
+	"sendf.h"
+	"inet_pton.h"
+	"vtls.h"
+	"connect.h"
+	"select.h"
+	"multiif.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"strcase.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/gskit.c
+	"curl_setup.h"
+	<gskssl.h>
+	<qsoasync.h>
+	"socketpair.h"
+	"strerror.h"
+	<limits.h>
+	<curl/curl.h>
+	"urldata.h"
+	"sendf.h"
+	"gskit.h"
+	"vtls.h"
+	"connect.h"
+	"select.h"
+	"strcase.h"
+	"timediff.h"
+	"x509asn1.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/x509asn1.h
+	"curl_setup.h"
+	"urldata.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/gtls.c
+	"curl_setup.h"
+	<gnutls/abstract.h>
+	<gnutls/gnutls.h>
+	<gnutls/x509.h>
+	<gnutls/crypto.h>
+	<nettle/sha2.h>
+	"urldata.h"
+	"sendf.h"
+	"inet_pton.h"
+	"gtls.h"
+	"vtls.h"
+	"vauth/vauth.h"
+	"parsedate.h"
+	"connect.h"
+	"select.h"
+	"strcase.h"
+	"warnless.h"
+	"x509asn1.h"
+	"multiif.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+	<gnutls/ocsp.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/hostcheck.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<netinet/in6.h>
+	"curl_memrchr.h"
+	"hostcheck.h"
+	"strcase.h"
+	"hostip.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/hostcheck.h
+	<curl/curl.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/keylog.c
+	"curl_setup.h"
+	"keylog.h"
+	<curl/curl.h>
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/mbedtls.c
+	"curl_setup.h"
+	<mbedtls/version.h>
+	<mbedtls/net_sockets.h>
+	<mbedtls/net.h>
+	<mbedtls/ssl.h>
+	<mbedtls/x509.h>
+	<mbedtls/error.h>
+	<mbedtls/entropy.h>
+	<mbedtls/ctr_drbg.h>
+	<mbedtls/sha256.h>
+	<mbedtls/debug.h>
+	"urldata.h"
+	"sendf.h"
+	"inet_pton.h"
+	"mbedtls.h"
+	"vtls.h"
+	"parsedate.h"
+	"connect.h"
+	"select.h"
+	"multiif.h"
+	"mbedtls_threadlock.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 /home/freedom/curl-test/curl-master/lib/vtls/mbedtls_threadlock.h
+	"curl_setup.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/mbedtls_threadlock.c
+	"curl_setup.h"
+	<pthread.h>
+	<process.h>
+	"mbedtls_threadlock.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/vtls/nss.c
+	"curl_setup.h"
+	"urldata.h"
+	"sendf.h"
+	"formdata.h"
+	"url.h"
+	"connect.h"
+	"strcase.h"
+	"select.h"
+	"vtls.h"
+	"llist.h"
+	"multiif.h"
+	"curl_printf.h"
+	"nssg.h"
+	<nspr.h>
+	<nss.h>
+	<ssl.h>
+	<sslerr.h>
+	<secerr.h>
+	<secmod.h>
+	<sslproto.h>
+	<prtypes.h>
+	<pk11pub.h>
+	<prio.h>
+	<secitem.h>
+	<secport.h>
+	<certdb.h>
+	<base64.h>
+	<cert.h>
+	<prerror.h>
+	<keyhi.h>
+	<private/pprio.h>
+	<ocsp.h>
+	"strcase.h"
+	"warnless.h"
+	"x509asn1.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/openssl.c
+	"curl_setup.h"
+	<limits.h>
+	<wincrypt.h>
+	"urldata.h"
+	"sendf.h"
+	"formdata.h"
+	"url.h"
+	"inet_pton.h"
+	"openssl.h"
+	"connect.h"
+	"slist.h"
+	"select.h"
+	"vtls.h"
+	"vauth/vauth.h"
+	"keylog.h"
+	"strcase.h"
+	"hostcheck.h"
+	"multiif.h"
+	"strerror.h"
+	"curl_printf.h"
+	<openssl/ssl.h>
+	<openssl/rand.h>
+	<openssl/x509v3.h>
+	<openssl/dsa.h>
+	<openssl/dh.h>
+	<openssl/err.h>
+	<openssl/md5.h>
+	<openssl/conf.h>
+	<openssl/bn.h>
+	<openssl/rsa.h>
+	<openssl/bio.h>
+	<openssl/buffer.h>
+	<openssl/pkcs12.h>
+	<openssl/ocsp.h>
+	<openssl/engine.h>
+	"warnless.h"
+	"curl_memory.h"
+	"memdebug.h"
+	<openssl/ui.h>
+	<openssl/core_names.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/rustls.c
+	"curl_setup.h"
+	"curl_printf.h"
+	<errno.h>
+	<rustls.h>
+	"inet_pton.h"
+	"urldata.h"
+	"sendf.h"
+	"vtls.h"
+	"select.h"
+	"strerror.h"
+	"multiif.h"
+
+1666519223 source:/home/freedom/curl-test/curl-master/lib/vtls/schannel.c
+	"curl_setup.h"
+	"schannel.h"
+	"vtls.h"
+	"strcase.h"
+	"sendf.h"
+	"connect.h"
+	"strerror.h"
+	"select.h"
+	"inet_pton.h"
+	"curl_multibyte.h"
+	"warnless.h"
+	"x509asn1.h"
+	"curl_printf.h"
+	"multiif.h"
+	"version_win32.h"
+	"rand.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/schannel_verify.c
+	"curl_setup.h"
+	"schannel.h"
+	"vtls.h"
+	"sendf.h"
+	"strerror.h"
+	"curl_multibyte.h"
+	"curl_printf.h"
+	"hostcheck.h"
+	"version_win32.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1666707715 source:/home/freedom/curl-test/curl-master/lib/vtls/sectransp.c
+	"curl_setup.h"
+	"urldata.h"
+	"curl_base64.h"
+	"strtok.h"
+	"multiif.h"
+	"strcase.h"
+	"x509asn1.h"
+	"strerror.h"
+	<limits.h>
+	<Security/Security.h>
+	<Security/SecureTransport.h>
+	<CoreFoundation/CoreFoundation.h>
+	<CommonCrypto/CommonDigest.h>
+	<sys/sysctl.h>
+	"urldata.h"
+	"sendf.h"
+	"inet_pton.h"
+	"connect.h"
+	"select.h"
+	"vtls.h"
+	"sectransp.h"
+	"curl_printf.h"
+	"strdup.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665958888 source:/home/freedom/curl-test/curl-master/lib/vtls/vtls.c
+	"curl_setup.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	"urldata.h"
+	"vtls.h"
+	"slist.h"
+	"sendf.h"
+	"strcase.h"
+	"url.h"
+	"progress.h"
+	"share.h"
+	"multiif.h"
+	"timeval.h"
+	"curl_md5.h"
+	"warnless.h"
+	"curl_base64.h"
+	"curl_printf.h"
+	"strdup.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/wolfssl.c
+	"curl_setup.h"
+	<wolfssl/version.h>
+	<wolfssl/options.h>
+	<limits.h>
+	"urldata.h"
+	"sendf.h"
+	"inet_pton.h"
+	"vtls.h"
+	"keylog.h"
+	"parsedate.h"
+	"connect.h"
+	"select.h"
+	"strcase.h"
+	"x509asn1.h"
+	"curl_printf.h"
+	"multiif.h"
+	<wolfssl/openssl/ssl.h>
+	<wolfssl/ssl.h>
+	<wolfssl/error-ssl.h>
+	"wolfssl.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/vtls/x509asn1.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"strcase.h"
+	"curl_ctype.h"
+	"hostcheck.h"
+	"vtls/vtls.h"
+	"sendf.h"
+	"inet_pton.h"
+	"curl_base64.h"
+	"x509asn1.h"
+	"dynbuf.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/warnless.c
+	"curl_setup.h"
+	<netinet/in.h>
+	<arpa/inet.h>
+	"warnless.h"
+	<limits.h>
+
+1665047999 source:/home/freedom/curl-test/curl-master/lib/wildcard.c
+	"curl_setup.h"
+	"wildcard.h"
+	"llist.h"
+	"fileinfo.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1665958888 source:/home/freedom/curl-test/curl-master/lib/ws.c
+	"curl_setup.h"
+	<curl/curl.h>
+	"urldata.h"
+	"dynbuf.h"
+	"rand.h"
+	"curl_base64.h"
+	"sendf.h"
+	"multiif.h"
+	"ws.h"
+	"easyif.h"
+	"transfer.h"
+	"nonblock.h"
+	"curl_printf.h"
+	"curl_memory.h"
+	"memdebug.h"
+
+1667689487 source:/home/freedom/curl-test/http-post.c
+	<stdio.h>
+	<curl/curl.h>
+
+1667834587 source:/home/freedom/curl-test/curl-master/docs/examples/https.c
+	<stdio.h>
+	<curl/curl.h>
+
+1669207524 source:/home/freedom/curl-test/curl-master/docs/examples/http3.c
+	<stdio.h>
+	<curl/curl.h>
+	"mbedtls/mbedtls_config.h"
+	"mbedtls/platform.h"
+	"mbedtls/net_sockets.h"
+	"mbedtls/debug.h"
+	"mbedtls/ssl.h"
+	"mbedtls/entropy.h"
+	"mbedtls/ctr_drbg.h"
+	"mbedtls/error.h"
+	"aos/cli.h"
+	<string.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/des.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/platform_util.h"
+	<stddef.h>
+	<stdint.h>
+	"des_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/private_access.h
+
+1668617137 /home/freedom/curl-test/mbedtls/include/mbedtls/build_info.h
+	"mbedtls/mbedtls_config.h"
+	"config-ccm-psk-dtls1_2.h"
+	"mbedtls/config_psa.h"
+	"mbedtls/check_config.h"
+
+1669044731 /home/freedom/curl-test/mbedtls/include/mbedtls/mbedtls_config.h
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/config_psa.h
+	"psa/crypto_config.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_config.h
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/check_config.h
+	<limits.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/platform_util.h
+	"mbedtls/build_info.h"
+	<stddef.h>
+	"mbedtls/platform_time.h"
+	<time.h>
+	<sal.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/platform_time.h
+	"mbedtls/build_info.h"
+	<time.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/version.h
+	"mbedtls/build_info.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/md5.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+	<stdint.h>
+	"md5_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/sha256.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+	<stdint.h>
+	"sha256_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/net_sockets.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/ssl.h"
+	<stddef.h>
+	<stdint.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ssl.h
+	"mbedtls/platform_util.h"
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/bignum.h"
+	"mbedtls/ecp.h"
+	"mbedtls/ssl_ciphersuites.h"
+	"mbedtls/x509_crt.h"
+	"mbedtls/x509_crl.h"
+	"mbedtls/dhm.h"
+	"mbedtls/ecdh.h"
+	"mbedtls/platform_time.h"
+	"psa/crypto.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/bignum.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+	<stdint.h>
+	<stdio.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ecp.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/bignum.h"
+	"ecp_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ssl_ciphersuites.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/pk.h"
+	"mbedtls/cipher.h"
+	"mbedtls/md.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/pk.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/md.h"
+	"mbedtls/rsa.h"
+	"mbedtls/ecp.h"
+	"mbedtls/ecdsa.h"
+	"psa/crypto.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/md.h
+	"mbedtls/private_access.h"
+	<stddef.h>
+	"mbedtls/build_info.h"
+	"mbedtls/platform_util.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/rsa.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/bignum.h"
+	"mbedtls/md.h"
+	"mbedtls/threading.h"
+	"rsa_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/threading.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stdlib.h>
+	<pthread.h>
+	"threading_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ecdsa.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/ecp.h"
+	"mbedtls/md.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto.h
+	"crypto_platform.h"
+	<stddef.h>
+	"crypto_types.h"
+	"crypto_values.h"
+	"crypto_sizes.h"
+	"crypto_struct.h"
+	"crypto_extra.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_platform.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/config_psa.h"
+	<stdint.h>
+	"crypto_spe.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_types.h
+	"mbedtls/private_access.h"
+	"crypto_platform.h"
+	<stdint.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_values.h
+	"mbedtls/private_access.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_sizes.h
+	"mbedtls/build_info.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_struct.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/cmac.h"
+	"mbedtls/gcm.h"
+	"mbedtls/ccm.h"
+	"mbedtls/chachapoly.h"
+	"psa/crypto_driver_contexts_primitives.h"
+	"psa/crypto_driver_contexts_composites.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/cmac.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/cipher.h"
+	"cmac_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/cipher.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+	"mbedtls/platform_util.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/gcm.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/cipher.h"
+	<stdint.h>
+	"gcm_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ccm.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/cipher.h"
+	"ccm_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/chachapoly.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/poly1305.h"
+	"mbedtls/chacha20.h"
+	"chachapoly_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/poly1305.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stdint.h>
+	<stddef.h>
+	"poly1305_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/chacha20.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stdint.h>
+	<stddef.h>
+	"chacha20_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_driver_contexts_primitives.h
+	"psa/crypto_driver_common.h"
+	"psa/crypto_builtin_primitives.h"
+	<libtestdriver1/include/psa/crypto.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_driver_common.h
+	<stddef.h>
+	<stdint.h>
+	"crypto_types.h"
+	"crypto_values.h"
+	<psa/crypto_sizes.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_builtin_primitives.h
+	"mbedtls/private_access.h"
+	<psa/crypto_driver_common.h>
+	"mbedtls/md5.h"
+	"mbedtls/ripemd160.h"
+	"mbedtls/sha1.h"
+	"mbedtls/sha256.h"
+	"mbedtls/sha512.h"
+	"mbedtls/cipher.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ripemd160.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+	<stdint.h>
+	"ripemd160_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/sha1.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+	<stdint.h>
+	"sha1_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/sha512.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+	<stdint.h>
+	"sha512_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_driver_contexts_composites.h
+	"psa/crypto_driver_common.h"
+	"psa/crypto_builtin_composites.h"
+	<libtestdriver1/include/psa/crypto.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_builtin_composites.h
+	"mbedtls/private_access.h"
+	<psa/crypto_driver_common.h>
+	"mbedtls/cmac.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_extra.h
+	"mbedtls/private_access.h"
+	"mbedtls/platform_util.h"
+	"crypto_types.h"
+	"crypto_compat.h"
+	<mbedtls/ecp.h>
+	<mbedtls/ecjpake.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_compat.h
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ecjpake.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/ecp.h"
+	"mbedtls/md.h"
+	"ecjpake_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/x509_crt.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/legacy_or_psa.h"
+	"mbedtls/x509.h"
+	"mbedtls/x509_crl.h"
+	"mbedtls/bignum.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/legacy_or_psa.h
+	"mbedtls/build_info.h"
+	"psa/crypto.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/x509.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/asn1.h"
+	"mbedtls/pk.h"
+	"mbedtls/rsa.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/asn1.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/platform_util.h"
+	<stddef.h>
+	"mbedtls/bignum.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/x509_crl.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/x509.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/dhm.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/bignum.h"
+	"dhm_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ecdh.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/ecp.h"
+	"everest/everest.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/error.h
+	"mbedtls/build_info.h"
+	<stddef.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/entropy.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+	"mbedtls/sha512.h"
+	"mbedtls/sha256.h"
+	"mbedtls/threading.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ctr_drbg.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/aes.h"
+	"mbedtls/threading.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/aes.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/platform_util.h"
+	<stddef.h>
+	<stdint.h>
+	"aes_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/debug.h
+	"mbedtls/build_info.h"
+	"mbedtls/ssl.h"
+	"mbedtls/ecp.h"
+	<inttypes.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/base64.h
+	"mbedtls/build_info.h"
+	<stddef.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/aes.c
+	"common.h"
+	<string.h>
+	"mbedtls/aes.h"
+	"mbedtls/platform.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"padlock.h"
+	"aesni.h"
+	"mbedtls/platform.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/common.h
+	"mbedtls/build_info.h"
+	<stdint.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/platform.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/platform_time.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<stddef.h>
+	<stdio.h>
+	<stdarg.h>
+	<stdarg.h>
+	<stdio.h>
+	"platform_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/padlock.h
+	"mbedtls/build_info.h"
+	"mbedtls/aes.h"
+	<stdint.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/aesni.h
+	"mbedtls/build_info.h"
+	"mbedtls/aes.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/aesni.c
+	"common.h"
+	"aesni.h"
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/aria.c
+	"common.h"
+	"mbedtls/aria.h"
+	<string.h>
+	"mbedtls/platform.h"
+	"mbedtls/platform_util.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/aria.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+	<stdint.h>
+	"mbedtls/platform_util.h"
+	"aria_alt.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/asn1parse.c
+	"common.h"
+	"mbedtls/asn1.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/bignum.h"
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/asn1write.c
+	"common.h"
+	"mbedtls/asn1write.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/asn1write.h
+	"mbedtls/build_info.h"
+	"mbedtls/asn1.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/base64.c
+	"common.h"
+	"mbedtls/base64.h"
+	"constant_time_internal.h"
+	<stdint.h>
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/constant_time_internal.h
+	"common.h"
+	"mbedtls/bignum.h"
+	"ssl_misc.h"
+	<stddef.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/ssl_misc.h
+	"mbedtls/build_info.h"
+	"mbedtls/ssl.h"
+	"mbedtls/cipher.h"
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+	"hash_info.h"
+	"mbedtls/legacy_or_psa.h"
+	"mbedtls/md5.h"
+	"mbedtls/sha1.h"
+	"mbedtls/sha256.h"
+	"mbedtls/sha512.h"
+	"mbedtls/ecjpake.h"
+	"common.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/psa_util.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"psa/crypto.h"
+	"mbedtls/ecp.h"
+	"mbedtls/md.h"
+	"mbedtls/pk.h"
+	"mbedtls/oid.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/ctr_drbg.h"
+	"mbedtls/hmac_drbg.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/oid.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/asn1.h"
+	"mbedtls/pk.h"
+	<stddef.h>
+	"mbedtls/cipher.h"
+	"mbedtls/md.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/hmac_drbg.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/md.h"
+	"mbedtls/threading.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/hash_info.h
+	"common.h"
+	"mbedtls/md.h"
+	"psa/crypto.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/bignum.c
+	"common.h"
+	"mbedtls/bignum.h"
+	"bignum_core.h"
+	"bn_mul.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"constant_time_internal.h"
+	<limits.h>
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/bignum_core.h
+	"common.h"
+	"mbedtls/bignum.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/bn_mul.h
+	"mbedtls/build_info.h"
+	"mbedtls/bignum.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/bignum_core.c
+	"common.h"
+	<string.h>
+	"mbedtls/error.h"
+	"mbedtls/platform_util.h"
+	"constant_time_internal.h"
+	"mbedtls/platform.h"
+	"bignum_core.h"
+	"bn_mul.h"
+	"constant_time_internal.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/bignum_mod.c
+	"common.h"
+	<string.h>
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"mbedtls/bignum.h"
+	"mbedtls/platform.h"
+	"bignum_core.h"
+	"bignum_mod.h"
+	"bignum_mod_raw.h"
+	"constant_time_internal.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/bignum_mod.h
+	"common.h"
+	"mbedtls/bignum.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/bignum_mod_raw.h
+	"common.h"
+	"mbedtls/bignum.h"
+	"bignum_mod.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/bignum_mod_raw.c
+	"common.h"
+	<string.h>
+	"mbedtls/error.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/platform.h"
+	"bignum_core.h"
+	"bignum_mod_raw.h"
+	"bignum_mod.h"
+	"constant_time_internal.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/camellia.c
+	"common.h"
+	"mbedtls/camellia.h"
+	"mbedtls/platform_util.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/camellia.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+	<stdint.h>
+	"mbedtls/platform_util.h"
+	"camellia_alt.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ccm.c
+	"common.h"
+	"mbedtls/ccm.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+	<stdio.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/chacha20.c
+	"common.h"
+	"mbedtls/chacha20.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<stddef.h>
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/chachapoly.c
+	"common.h"
+	"mbedtls/chachapoly.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/cipher.c
+	"common.h"
+	"mbedtls/cipher.h"
+	"cipher_wrap.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"mbedtls/constant_time.h"
+	<stdlib.h>
+	<string.h>
+	"mbedtls/chachapoly.h"
+	"mbedtls/gcm.h"
+	"mbedtls/ccm.h"
+	"mbedtls/chacha20.h"
+	"mbedtls/cmac.h"
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+	"mbedtls/nist_kw.h"
+	"mbedtls/platform.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/cipher_wrap.h
+	"mbedtls/build_info.h"
+	"mbedtls/cipher.h"
+	"psa/crypto.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/constant_time.h
+	<stddef.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/nist_kw.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/cipher.h"
+	"nist_kw_alt.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/cipher_wrap.c
+	"common.h"
+	"cipher_wrap.h"
+	"mbedtls/error.h"
+	"mbedtls/chachapoly.h"
+	"mbedtls/aes.h"
+	"mbedtls/camellia.h"
+	"mbedtls/aria.h"
+	"mbedtls/des.h"
+	"mbedtls/chacha20.h"
+	"mbedtls/gcm.h"
+	"mbedtls/ccm.h"
+	"mbedtls/nist_kw.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/cmac.c
+	"common.h"
+	"mbedtls/cmac.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"mbedtls/platform.h"
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/constant_time.c
+	"common.h"
+	"constant_time_internal.h"
+	"mbedtls/constant_time.h"
+	"mbedtls/error.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/bignum.h"
+	"bignum_core.h"
+	"ssl_misc.h"
+	"mbedtls/rsa.h"
+	"constant_time_invasive.h"
+	<string.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/constant_time_invasive.h
+	"common.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ctr_drbg.c
+	"common.h"
+	"mbedtls/ctr_drbg.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	<stdio.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/debug.c
+	"common.h"
+	"mbedtls/platform.h"
+	"mbedtls/debug.h"
+	"mbedtls/error.h"
+	<stdarg.h>
+	<stdio.h>
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/des.c
+	"common.h"
+	"mbedtls/des.h"
+	"mbedtls/error.h"
+	"mbedtls/platform_util.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/dhm.c
+	"common.h"
+	"mbedtls/dhm.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/pem.h"
+	"mbedtls/asn1.h"
+	"mbedtls/platform.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/pem.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stddef.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ecdh.c
+	"common.h"
+	"mbedtls/ecdh.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ecdsa.c
+	"common.h"
+	"mbedtls/ecdsa.h"
+	"mbedtls/asn1write.h"
+	<string.h>
+	"mbedtls/hmac_drbg.h"
+	"mbedtls/platform.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ecjpake.c
+	"common.h"
+	"mbedtls/ecjpake.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+	"hash_info.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ecp.c
+	"common.h"
+	"mbedtls/ecp.h"
+	"mbedtls/threading.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"bn_mul.h"
+	"ecp_invasive.h"
+	<string.h>
+	"mbedtls/platform.h"
+	"ecp_internal_alt.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/ecp_invasive.h
+	"common.h"
+	"mbedtls/bignum.h"
+	"mbedtls/ecp.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/ecp_internal_alt.h
+	"mbedtls/build_info.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ecp_curves.c
+	"common.h"
+	"mbedtls/ecp.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"bn_mul.h"
+	"bignum_core.h"
+	"ecp_invasive.h"
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/entropy.c
+	"common.h"
+	"mbedtls/entropy.h"
+	"entropy_poll.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	<stdio.h>
+	"mbedtls/platform.h"
+	"mbedtls/platform.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/entropy_poll.h
+	"mbedtls/build_info.h"
+	<stddef.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/entropy_poll.c
+	"common.h"
+	<string.h>
+	"mbedtls/entropy.h"
+	"entropy_poll.h"
+	"mbedtls/error.h"
+	"mbedtls/timing.h"
+	"mbedtls/platform.h"
+	<windows.h>
+	<wincrypt.h>
+	<unistd.h>
+	<sys/syscall.h>
+	<errno.h>
+	<sys/param.h>
+	<errno.h>
+	<sys/random.h>
+	<sys/param.h>
+	<sys/sysctl.h>
+	<stdio.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/timing.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	<stdint.h>
+	"timing_alt.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/gcm.c
+	"common.h"
+	"mbedtls/gcm.h"
+	"mbedtls/platform.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"aesni.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/hash_info.c
+	"hash_info.h"
+	"mbedtls/legacy_or_psa.h"
+	"mbedtls/error.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/hkdf.c
+	"common.h"
+	<string.h>
+	"mbedtls/hkdf.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/hkdf.h
+	"mbedtls/build_info.h"
+	"mbedtls/md.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/hmac_drbg.c
+	"common.h"
+	"mbedtls/hmac_drbg.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	<stdio.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/lmots.c
+	"common.h"
+	<string.h>
+	"lmots.h"
+	"mbedtls/lms.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"psa/crypto.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/lmots.h
+	"mbedtls/build_info.h"
+	"psa/crypto.h"
+	"mbedtls/lms.h"
+	<stdint.h>
+	<stddef.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/lms.h
+	<stdint.h>
+	<stddef.h>
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/lms.c
+	"common.h"
+	<string.h>
+	"lmots.h"
+	"psa/crypto.h"
+	"mbedtls/lms.h"
+	"mbedtls/error.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/md.c
+	"common.h"
+	"mbedtls/md.h"
+	"md_wrap.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"mbedtls/md5.h"
+	"mbedtls/ripemd160.h"
+	"mbedtls/sha1.h"
+	"mbedtls/sha256.h"
+	"mbedtls/sha512.h"
+	"mbedtls/platform.h"
+	<string.h>
+	<stdio.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/md_wrap.h
+	"mbedtls/build_info.h"
+	"mbedtls/md.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/md5.c
+	"common.h"
+	"mbedtls/md5.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/memory_buffer_alloc.c
+	"common.h"
+	"mbedtls/memory_buffer_alloc.h"
+	"mbedtls/platform.h"
+	"mbedtls/platform_util.h"
+	<string.h>
+	<execinfo.h>
+	"mbedtls/threading.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/memory_buffer_alloc.h
+	"mbedtls/build_info.h"
+	<stddef.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/mps_reader.c
+	"common.h"
+	"mps_reader.h"
+	"mps_common.h"
+	"mps_trace.h"
+	<string.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/mps_reader.h
+	<stdio.h>
+	"mps_common.h"
+	"mps_error.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/mps_common.h
+	"mps_error.h"
+	<stdio.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/mps_error.h
+
+1668427449 /home/freedom/curl-test/mbedtls/library/mps_trace.h
+	"common.h"
+	"mps_common.h"
+	"mps_trace.h"
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/mps_trace.c
+	"common.h"
+	"mps_common.h"
+	"mps_trace.h"
+	<stdarg.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/net_sockets.c
+	"common.h"
+	"mbedtls/platform.h"
+	"mbedtls/net_sockets.h"
+	"mbedtls/error.h"
+	<string.h>
+	<ws2tcpip.h>
+	<winsock2.h>
+	<windows.h>
+	<wspiapi.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/time.h>
+	<unistd.h>
+	<signal.h>
+	<fcntl.h>
+	<netdb.h>
+	<errno.h>
+	<stdio.h>
+	<time.h>
+	<stdint.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/nist_kw.c
+	"common.h"
+	"mbedtls/nist_kw.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"mbedtls/constant_time.h"
+	<stdint.h>
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/oid.c
+	"common.h"
+	"mbedtls/oid.h"
+	"mbedtls/rsa.h"
+	"mbedtls/error.h"
+	"mbedtls/legacy_or_psa.h"
+	<stdio.h>
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/padlock.c
+	"common.h"
+	"padlock.h"
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/pem.c
+	"common.h"
+	"mbedtls/pem.h"
+	"mbedtls/base64.h"
+	"mbedtls/des.h"
+	"mbedtls/aes.h"
+	"mbedtls/md5.h"
+	"mbedtls/cipher.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"hash_info.h"
+	<string.h>
+	"mbedtls/platform.h"
+	"psa/crypto.h"
+	"mbedtls/legacy_or_psa.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/pk.c
+	"common.h"
+	"mbedtls/pk.h"
+	"pk_wrap.h"
+	"pkwrite.h"
+	"hash_info.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"mbedtls/rsa.h"
+	"mbedtls/ecp.h"
+	"mbedtls/ecdsa.h"
+	"mbedtls/psa_util.h"
+	<limits.h>
+	<stdint.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/pk_wrap.h
+	"mbedtls/build_info.h"
+	"mbedtls/pk.h"
+	"psa/crypto.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/pkwrite.h
+	"mbedtls/build_info.h"
+	"mbedtls/pk.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/pk_wrap.c
+	"common.h"
+	"pk_wrap.h"
+	"mbedtls/error.h"
+	"mbedtls/rsa.h"
+	<string.h>
+	"mbedtls/ecp.h"
+	"pkwrite.h"
+	"mbedtls/ecdsa.h"
+	"mbedtls/asn1write.h"
+	"mbedtls/platform_util.h"
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+	"mbedtls/asn1.h"
+	"hash_info.h"
+	"mbedtls/platform.h"
+	<limits.h>
+	<stdint.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/pkcs12.c
+	"common.h"
+	"mbedtls/pkcs12.h"
+	"mbedtls/asn1.h"
+	"mbedtls/cipher.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/des.h"
+	"hash_info.h"
+	"mbedtls/psa_util.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/pkcs12.h
+	"mbedtls/build_info.h"
+	"mbedtls/md.h"
+	"mbedtls/cipher.h"
+	"mbedtls/asn1.h"
+	<stddef.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/pkcs5.c
+	"common.h"
+	"mbedtls/pkcs5.h"
+	"mbedtls/error.h"
+	"mbedtls/asn1.h"
+	"mbedtls/cipher.h"
+	"mbedtls/oid.h"
+	<string.h>
+	"mbedtls/platform.h"
+	"hash_info.h"
+	"mbedtls/psa_util.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/pkcs5.h
+	"mbedtls/build_info.h"
+	"mbedtls/asn1.h"
+	"mbedtls/md.h"
+	<stddef.h>
+	<stdint.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/pkparse.c
+	"common.h"
+	"mbedtls/pk.h"
+	"mbedtls/asn1.h"
+	"mbedtls/oid.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/rsa.h"
+	"mbedtls/ecp.h"
+	"mbedtls/ecdsa.h"
+	"mbedtls/pem.h"
+	"mbedtls/pkcs5.h"
+	"mbedtls/pkcs12.h"
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/pkwrite.c
+	"common.h"
+	"mbedtls/pk.h"
+	"mbedtls/asn1write.h"
+	"mbedtls/oid.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/rsa.h"
+	"mbedtls/bignum.h"
+	"mbedtls/ecp.h"
+	"mbedtls/platform_util.h"
+	"pkwrite.h"
+	"mbedtls/ecdsa.h"
+	"mbedtls/pem.h"
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/platform.c
+	"common.h"
+	"mbedtls/platform.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<stdarg.h>
+	<stdarg.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/platform_util.c
+	"common.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/platform.h"
+	"mbedtls/threading.h"
+	<stddef.h>
+	<string.h>
+	<time.h>
+	<unistd.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/poly1305.c
+	"common.h"
+	"mbedtls/poly1305.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto.c
+	"common.h"
+	"check_crypto_config.h"
+	"psa/crypto.h"
+	"psa/crypto_values.h"
+	"psa_crypto_cipher.h"
+	"psa_crypto_core.h"
+	"psa_crypto_invasive.h"
+	"psa_crypto_driver_wrappers.h"
+	"psa_crypto_ecp.h"
+	"psa_crypto_hash.h"
+	"psa_crypto_mac.h"
+	"psa_crypto_rsa.h"
+	"psa_crypto_ecp.h"
+	"psa_crypto_se.h"
+	"psa_crypto_slot_management.h"
+	"psa_crypto_storage.h"
+	"psa_crypto_random_impl.h"
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	"mbedtls/platform.h"
+	"mbedtls/aes.h"
+	"mbedtls/asn1.h"
+	"mbedtls/asn1write.h"
+	"mbedtls/bignum.h"
+	"mbedtls/camellia.h"
+	"mbedtls/chacha20.h"
+	"mbedtls/chachapoly.h"
+	"mbedtls/cipher.h"
+	"mbedtls/ccm.h"
+	"mbedtls/cmac.h"
+	"mbedtls/des.h"
+	"mbedtls/ecdh.h"
+	"mbedtls/ecp.h"
+	"mbedtls/entropy.h"
+	"mbedtls/error.h"
+	"mbedtls/gcm.h"
+	"mbedtls/md5.h"
+	"mbedtls/md.h"
+	"md_wrap.h"
+	"mbedtls/pk.h"
+	"pk_wrap.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"mbedtls/ripemd160.h"
+	"mbedtls/rsa.h"
+	"mbedtls/sha1.h"
+	"mbedtls/sha256.h"
+	"mbedtls/sha512.h"
+	"entropy_poll.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/check_crypto_config.h
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_cipher.h
+	<mbedtls/cipher.h>
+	<psa/crypto.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_core.h
+	"mbedtls/build_info.h"
+	"psa/crypto.h"
+	"psa/crypto_se_driver.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/include/psa/crypto_se_driver.h
+	"mbedtls/private_access.h"
+	"crypto_driver_common.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_invasive.h
+	"mbedtls/build_info.h"
+	"psa/crypto.h"
+	"common.h"
+	"mbedtls/entropy.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_driver_wrappers.h
+	"psa/crypto.h"
+	"psa/crypto_driver_common.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_ecp.h
+	<psa/crypto.h>
+	<mbedtls/ecp.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_hash.h
+	<psa/crypto.h>
+	"md_wrap.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_mac.h
+	<psa/crypto.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_rsa.h
+	<psa/crypto.h>
+	<mbedtls/rsa.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_se.h
+	"mbedtls/build_info.h"
+	"psa/crypto.h"
+	"psa/crypto_se_driver.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_slot_management.h
+	"psa/crypto.h"
+	"psa_crypto_core.h"
+	"psa_crypto_se.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_storage.h
+	"psa/crypto.h"
+	"psa/crypto_se_driver.h"
+	<stdint.h>
+	<string.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_random_impl.h
+	<mbedtls/psa_util.h>
+	<string.h>
+	<mbedtls/entropy.h>
+	<psa/crypto.h>
+	"mbedtls/hmac_drbg.h"
+	"mbedtls/ctr_drbg.h"
+	"mbedtls/hmac_drbg.h"
+	<limits.h>
+	"mbedtls/entropy.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_aead.c
+	"common.h"
+	"psa_crypto_aead.h"
+	"psa_crypto_core.h"
+	"psa_crypto_cipher.h"
+	<string.h>
+	"mbedtls/platform.h"
+	"mbedtls/ccm.h"
+	"mbedtls/chachapoly.h"
+	"mbedtls/cipher.h"
+	"mbedtls/gcm.h"
+	"mbedtls/error.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_aead.h
+	<psa/crypto.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_cipher.c
+	"common.h"
+	"psa_crypto_cipher.h"
+	"psa_crypto_core.h"
+	"psa_crypto_random_impl.h"
+	"mbedtls/cipher.h"
+	"mbedtls/error.h"
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_client.c
+	"common.h"
+	"psa/crypto.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_ecp.c
+	"common.h"
+	<psa/crypto.h>
+	"psa_crypto_core.h"
+	"psa_crypto_ecp.h"
+	"psa_crypto_random_impl.h"
+	"hash_info.h"
+	<stdlib.h>
+	<string.h>
+	"mbedtls/platform.h"
+	<mbedtls/ecdsa.h>
+	<mbedtls/ecp.h>
+	<mbedtls/error.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_hash.c
+	"common.h"
+	<psa/crypto.h>
+	"psa_crypto_core.h"
+	"psa_crypto_hash.h"
+	<mbedtls/error.h>
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_mac.c
+	"common.h"
+	<psa/crypto.h>
+	"psa_crypto_core.h"
+	"psa_crypto_cipher.h"
+	"psa_crypto_mac.h"
+	<mbedtls/md.h>
+	<mbedtls/error.h>
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_pake.c
+	"common.h"
+	<psa/crypto.h>
+	"psa_crypto_core.h"
+	"psa_crypto_slot_management.h"
+	<mbedtls/ecjpake.h>
+	<mbedtls/psa_util.h>
+	<mbedtls/platform.h>
+	<mbedtls/error.h>
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_rsa.c
+	"common.h"
+	<psa/crypto.h>
+	"psa/crypto_values.h"
+	"psa_crypto_core.h"
+	"psa_crypto_random_impl.h"
+	"psa_crypto_rsa.h"
+	"psa_crypto_hash.h"
+	<stdlib.h>
+	<string.h>
+	"mbedtls/platform.h"
+	<mbedtls/rsa.h>
+	<mbedtls/error.h>
+	<mbedtls/pk.h>
+	"pk_wrap.h"
+	"hash_info.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_se.c
+	"common.h"
+	<assert.h>
+	<stdint.h>
+	<string.h>
+	"psa/crypto_se_driver.h"
+	"psa_crypto_se.h"
+	"psa_crypto_its.h"
+	"psa/error.h"
+	"psa/internal_trusted_storage.h"
+	"mbedtls/platform.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/psa_crypto_its.h
+	<stddef.h>
+	<stdint.h>
+	<psa/crypto_types.h>
+	<psa/crypto_values.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_slot_management.c
+	"common.h"
+	"psa/crypto.h"
+	"psa_crypto_core.h"
+	"psa_crypto_driver_wrappers.h"
+	"psa_crypto_slot_management.h"
+	"psa_crypto_storage.h"
+	"psa_crypto_se.h"
+	<stdlib.h>
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_crypto_storage.c
+	"common.h"
+	<stdlib.h>
+	<string.h>
+	"psa/crypto.h"
+	"psa_crypto_storage.h"
+	"mbedtls/platform_util.h"
+	"psa_crypto_its.h"
+	"psa/error.h"
+	"psa/internal_trusted_storage.h"
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/psa_its_file.c
+	"common.h"
+	"mbedtls/platform.h"
+	<windows.h>
+	"psa_crypto_its.h"
+	<limits.h>
+	<stdint.h>
+	<stdio.h>
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ripemd160.c
+	"common.h"
+	"mbedtls/ripemd160.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/rsa.c
+	"common.h"
+	"mbedtls/rsa.h"
+	"rsa_alt_helpers.h"
+	"mbedtls/oid.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	"constant_time_internal.h"
+	"mbedtls/constant_time.h"
+	"hash_info.h"
+	<string.h>
+	<stdlib.h>
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+	"mbedtls/platform.h"
+	"mbedtls/sha1.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/rsa_alt_helpers.h
+	"mbedtls/build_info.h"
+	"mbedtls/bignum.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/rsa_alt_helpers.c
+	"common.h"
+	"mbedtls/rsa.h"
+	"mbedtls/bignum.h"
+	"rsa_alt_helpers.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/sha1.c
+	"common.h"
+	"mbedtls/sha1.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/sha256.c
+	"common.h"
+	"mbedtls/sha256.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+	<arm_neon.h>
+	<sys/auxv.h>
+	<signal.h>
+	<arm64_neon.h>
+	<Windows.h>
+	<processthreadsapi.h>
+	<signal.h>
+	<setjmp.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/sha512.c
+	"common.h"
+	"mbedtls/sha512.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/error.h"
+	<string.h>
+	"mbedtls/platform.h"
+	<arm_neon.h>
+	<sys/auxv.h>
+	<signal.h>
+	<arm64_neon.h>
+	<sys/types.h>
+	<sys/sysctl.h>
+	<signal.h>
+	<setjmp.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_cache.c
+	"common.h"
+	"mbedtls/platform.h"
+	"mbedtls/ssl_cache.h"
+	"ssl_misc.h"
+	<string.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ssl_cache.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/ssl.h"
+	"mbedtls/threading.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_ciphersuites.c
+	"common.h"
+	"mbedtls/platform.h"
+	"mbedtls/ssl_ciphersuites.h"
+	"mbedtls/ssl.h"
+	"ssl_misc.h"
+	"mbedtls/legacy_or_psa.h"
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_client.c
+	"common.h"
+	"mbedtls/platform.h"
+	<string.h>
+	"mbedtls/debug.h"
+	"mbedtls/error.h"
+	"mbedtls/platform_time.h"
+	"ssl_client.h"
+	"ssl_misc.h"
+	"ssl_tls13_keys.h"
+	"ssl_debug_helpers.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/ssl_client.h
+	"common.h"
+	"ssl_misc.h"
+	<stddef.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/library/ssl_tls13_keys.h
+
+1668427449 /home/freedom/curl-test/mbedtls/library/ssl_debug_helpers.h
+	"common.h"
+	"mbedtls/ssl.h"
+	"ssl_misc.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_cookie.c
+	"common.h"
+	"mbedtls/platform.h"
+	"mbedtls/ssl_cookie.h"
+	"ssl_misc.h"
+	"mbedtls/error.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/constant_time.h"
+	"mbedtls/legacy_or_psa.h"
+	<string.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ssl_cookie.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/ssl.h"
+	"mbedtls/threading.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_msg.c
+	"common.h"
+	"mbedtls/platform.h"
+	"mbedtls/ssl.h"
+	"ssl_misc.h"
+	"mbedtls/debug.h"
+	"mbedtls/error.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/version.h"
+	"constant_time_internal.h"
+	"mbedtls/constant_time.h"
+	<string.h>
+	"mbedtls/psa_util.h"
+	"psa/crypto.h"
+	"mbedtls/oid.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_ticket.c
+	"common.h"
+	"mbedtls/platform.h"
+	"ssl_misc.h"
+	"mbedtls/ssl_ticket.h"
+	"mbedtls/error.h"
+	"mbedtls/platform_util.h"
+	<string.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/ssl_ticket.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/ssl.h"
+	"mbedtls/cipher.h"
+	"mbedtls/platform_time.h"
+	"psa/crypto.h"
+	"mbedtls/threading.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_tls.c
+	"common.h"
+	<assert.h>
+	"mbedtls/platform.h"
+	"mbedtls/ssl.h"
+	"ssl_client.h"
+	"ssl_debug_helpers.h"
+	"ssl_misc.h"
+	"mbedtls/debug.h"
+	"mbedtls/error.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/version.h"
+	"mbedtls/constant_time.h"
+	<string.h>
+	"mbedtls/psa_util.h"
+	"psa/crypto.h"
+	"mbedtls/legacy_or_psa.h"
+	"mbedtls/oid.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_tls12_client.c
+	"common.h"
+	"mbedtls/platform.h"
+	"mbedtls/ssl.h"
+	"ssl_client.h"
+	"ssl_misc.h"
+	"mbedtls/debug.h"
+	"mbedtls/error.h"
+	"mbedtls/constant_time.h"
+	"mbedtls/psa_util.h"
+	"psa/crypto.h"
+	<string.h>
+	<stdint.h>
+	"mbedtls/platform_time.h"
+	"mbedtls/platform_util.h"
+	"hash_info.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_tls12_server.c
+	"common.h"
+	"mbedtls/platform.h"
+	"mbedtls/ssl.h"
+	"ssl_misc.h"
+	"mbedtls/debug.h"
+	"mbedtls/error.h"
+	"mbedtls/platform_util.h"
+	"constant_time_internal.h"
+	"mbedtls/constant_time.h"
+	"hash_info.h"
+	<string.h>
+	"mbedtls/ecp.h"
+	"mbedtls/platform_time.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_tls13_client.c
+	"common.h"
+	<string.h>
+	"mbedtls/debug.h"
+	"mbedtls/error.h"
+	"mbedtls/platform.h"
+	"ssl_misc.h"
+	"ssl_client.h"
+	"ssl_tls13_keys.h"
+	"ssl_debug_helpers.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_tls13_generic.c
+	"common.h"
+	<string.h>
+	"mbedtls/error.h"
+	"mbedtls/debug.h"
+	"mbedtls/oid.h"
+	"mbedtls/platform.h"
+	"mbedtls/constant_time.h"
+	<string.h>
+	"ssl_misc.h"
+	"ssl_tls13_invasive.h"
+	"ssl_tls13_keys.h"
+	"ssl_debug_helpers.h"
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/library/ssl_tls13_invasive.h
+	"common.h"
+	"psa/crypto.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_tls13_keys.c
+	"common.h"
+	<stdint.h>
+	<string.h>
+	"mbedtls/hkdf.h"
+	"mbedtls/debug.h"
+	"mbedtls/error.h"
+	"mbedtls/platform.h"
+	"ssl_misc.h"
+	"ssl_tls13_keys.h"
+	"ssl_tls13_invasive.h"
+	"psa/crypto.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/ssl_tls13_server.c
+	"common.h"
+	"mbedtls/debug.h"
+	"mbedtls/error.h"
+	"mbedtls/platform.h"
+	"mbedtls/constant_time.h"
+	"ssl_misc.h"
+	"ssl_tls13_keys.h"
+	"ssl_debug_helpers.h"
+	"mbedtls/ecp.h"
+	"mbedtls/platform.h"
+	"ssl_misc.h"
+	"ssl_tls13_keys.h"
+	"ssl_debug_helpers.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/threading.c
+	"common.h"
+	"mbedtls/threading.h"
+	<unistd.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/timing.c
+	"common.h"
+	"mbedtls/timing.h"
+	<windows.h>
+	<process.h>
+	<unistd.h>
+	<sys/types.h>
+	<signal.h>
+	<time.h>
+	<sys/time.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/version.c
+	"common.h"
+	"mbedtls/version.h"
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/x509.c
+	"common.h"
+	"mbedtls/x509.h"
+	"mbedtls/asn1.h"
+	"mbedtls/error.h"
+	"mbedtls/oid.h"
+	<stdio.h>
+	<string.h>
+	"mbedtls/pem.h"
+	"mbedtls/platform.h"
+	"mbedtls/platform_time.h"
+	"mbedtls/platform_util.h"
+	<time.h>
+	"mbedtls/legacy_or_psa.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/x509_create.c
+	"common.h"
+	"mbedtls/x509.h"
+	"mbedtls/asn1write.h"
+	"mbedtls/error.h"
+	"mbedtls/oid.h"
+	<string.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/x509_crl.c
+	"common.h"
+	"mbedtls/x509_crl.h"
+	"mbedtls/error.h"
+	"mbedtls/oid.h"
+	"mbedtls/platform_util.h"
+	<string.h>
+	"mbedtls/pem.h"
+	"mbedtls/platform.h"
+	<windows.h>
+	<time.h>
+	<stdio.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/x509_crt.c
+	"common.h"
+	"mbedtls/x509_crt.h"
+	"mbedtls/error.h"
+	"mbedtls/oid.h"
+	"mbedtls/platform_util.h"
+	<string.h>
+	"mbedtls/pem.h"
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+	"hash_info.h"
+	"mbedtls/platform.h"
+	"mbedtls/threading.h"
+	<windows.h>
+	<time.h>
+	<stdio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<platform/mbed_retarget.h>
+	<dirent.h>
+	<errno.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/x509_csr.c
+	"common.h"
+	"mbedtls/x509_csr.h"
+	"mbedtls/error.h"
+	"mbedtls/oid.h"
+	"mbedtls/platform_util.h"
+	<string.h>
+	"mbedtls/pem.h"
+	"mbedtls/platform.h"
+	<stdio.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/include/mbedtls/x509_csr.h
+	"mbedtls/private_access.h"
+	"mbedtls/build_info.h"
+	"mbedtls/x509.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/x509write_crt.c
+	"common.h"
+	"mbedtls/x509_crt.h"
+	"mbedtls/asn1write.h"
+	"mbedtls/error.h"
+	"mbedtls/oid.h"
+	"mbedtls/platform_util.h"
+	"mbedtls/sha1.h"
+	<string.h>
+	"mbedtls/pem.h"
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+	"hash_info.h"
+	"mbedtls/legacy_or_psa.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/library/x509write_csr.c
+	"common.h"
+	"mbedtls/x509_csr.h"
+	"mbedtls/asn1write.h"
+	"mbedtls/error.h"
+	"mbedtls/oid.h"
+	"mbedtls/platform_util.h"
+	"psa/crypto.h"
+	"mbedtls/psa_util.h"
+	"hash_info.h"
+	<string.h>
+	<stdlib.h>
+	"mbedtls/pem.h"
+	"mbedtls/platform.h"
+
+1668613617 source:/home/freedom/curl-test/mbedtls/library/error.c
+	"common.h"
+	"mbedtls/error.h"
+	"mbedtls/platform.h"
+	<stdio.h>
+	<string.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/include/everest/everest.h
+	"everest/x25519.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/include/everest/x25519.h
+
+1668427449 source:/home/freedom/curl-test/mbedtls/3rdparty/everest/library/everest.c
+	"common.h"
+	<string.h>
+	"mbedtls/ecdh.h"
+	"everest/x25519.h"
+	"everest/everest.h"
+	"mbedtls/platform.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/3rdparty/everest/library/Hacl_Curve25519.c
+	"Hacl_Curve25519.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/include/everest/Hacl_Curve25519.h
+	"kremlib.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/include/everest/kremlib.h
+	"kremlin/internal/target.h"
+	"kremlin/internal/types.h"
+	"kremlin/c_endianness.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/include/everest/kremlin/internal/target.h
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<inttypes.h>
+	<limits.h>
+	"kremlin/internal/callconv.h"
+	<time.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/include/everest/kremlin/internal/callconv.h
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/include/everest/kremlin/internal/types.h
+	<inttypes.h>
+	<stdio.h>
+	<stdlib.h>
+	<emmintrin.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/include/everest/kremlin/c_endianness.h
+	<string.h>
+	<inttypes.h>
+	<endian.h>
+	<libkern/OSByteOrder.h>
+	<sys/byteorder.h>
+	<sys/endian.h>
+	<endian.h>
+	<stdlib.h>
+
+1668427449 source:/home/freedom/curl-test/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c
+	"common.h"
+	"Hacl_Curve25519.c"
+	"kremlib/FStar_UInt128_extracted.c"
+	"legacy/Hacl_Curve25519.c"
+	"kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c"
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/library/Hacl_Curve25519.c
+	"Hacl_Curve25519.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/library/kremlib/FStar_UInt128_extracted.c
+	"FStar_UInt128.h"
+	"kremlin/c_endianness.h"
+	"FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/library/legacy/Hacl_Curve25519.c
+	"Hacl_Curve25519.h"
+
+1668427449 /home/freedom/curl-test/mbedtls/3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c
+	"FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.h"
+
+1668427449 source:/home/freedom/curl-test/mbedtls/3rdparty/everest/library/x25519.c
+	"common.h"
+	<mbedtls/ecdh.h>
+	<Hacl_Curve25519.h>
+	<mbedtls/platform_util.h>
+	"x25519.h"
+	<string.h>
+
+1668427449 /home/freedom/curl-test/mbedtls/configs/config-ccm-psk-dtls1_2.h
+
+1669217610 source:/home/freedom/curl-test/curl-master/docs/examples/ftpsget.c
+	<stdio.h>
+	<curl/curl.h>
+
+1669254523 source:/home/freedom/curl-test/curl-master/docs/examples/ftpget.c
+	<stdio.h>
+	<curl/curl.h>
+
+1669218791 source:/home/freedom/curl-test/curl-master/docs/examples/smtp-tls.c
+	<stdio.h>
+	<string.h>
+	<curl/curl.h>
+
+1669219214 source:/home/freedom/curl-test/curl-master/docs/examples/imap-tls.c
+	<stdio.h>
+	<curl/curl.h>
+
+1669254354 source:/home/freedom/curl-test/curl-master/docs/examples/ftpupload.c
+	<stdio.h>
+	<string.h>
+	<curl/curl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<errno.h>
+	<io.h>
+	<unistd.h>
+
+1669254367 source:/home/freedom/curl-test/curl-master/docs/examples/ftpgetinfo.c
+	<stdio.h>
+	<string.h>
+	<curl/curl.h>
+
+1669254303 source:/home/freedom/curl-test/curl-master/docs/examples/http2-download.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<sys/time.h>
+	<unistd.h>
+	<curl/curl.h>
+	<curl/mprintf.h>
+

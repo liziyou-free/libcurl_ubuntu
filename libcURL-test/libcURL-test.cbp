@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libcURL-test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/libcURL-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="/home/freedom/curl-test/libcURL-test/" />
+					<Add directory="../curl-master/lib" />
+					<Add directory="../curl-master/include/curl" />
+					<Add directory="../curl-master" />
+					<Add directory="../curl-master/include" />
+					<Add directory="../mbedtls/include/mbedtls" />
+					<Add directory="../mbedtls/include/psa" />
+					<Add directory="../mbedtls/include" />
+					<Add directory="../mbedtls/3rdparty/everest/include/everest" />
+					<Add directory="../mbedtls/library" />
+					<Add directory="../mbedtls/3rdparty/everest/include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/libcURL-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../curl-master/docs/examples/ftpget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/docs/examples/ftpgetinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/docs/examples/ftpsget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/docs/examples/ftpupload.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/docs/examples/http2-download.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/docs/examples/http3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/docs/examples/smtp-tls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/altsvc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/altsvc.h" />
+		<Unit filename="../curl-master/lib/amigaos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/amigaos.h" />
+		<Unit filename="../curl-master/lib/arpa_telnet.h" />
+		<Unit filename="../curl-master/lib/asyn-ares.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/asyn-thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/asyn.h" />
+		<Unit filename="../curl-master/lib/base64.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/bufref.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/bufref.h" />
+		<Unit filename="../curl-master/lib/c-hyper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/c-hyper.h" />
+		<Unit filename="../curl-master/lib/config-amigaos.h" />
+		<Unit filename="../curl-master/lib/config-dos.h" />
+		<Unit filename="../curl-master/lib/config-mac.h" />
+		<Unit filename="../curl-master/lib/config-os400.h" />
+		<Unit filename="../curl-master/lib/config-plan9.h" />
+		<Unit filename="../curl-master/lib/config-riscos.h" />
+		<Unit filename="../curl-master/lib/config-win32.h" />
+		<Unit filename="../curl-master/lib/config-win32ce.h" />
+		<Unit filename="../curl-master/lib/conncache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/conncache.h" />
+		<Unit filename="../curl-master/lib/connect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/connect.h" />
+		<Unit filename="../curl-master/lib/content_encoding.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/content_encoding.h" />
+		<Unit filename="../curl-master/lib/cookie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/cookie.h" />
+		<Unit filename="../curl-master/lib/curl_addrinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_addrinfo.h" />
+		<Unit filename="../curl-master/lib/curl_base64.h" />
+		<Unit filename="../curl-master/lib/curl_config.h" />
+		<Unit filename="../curl-master/lib/curl_ctype.h" />
+		<Unit filename="../curl-master/lib/curl_des.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_des.h" />
+		<Unit filename="../curl-master/lib/curl_endian.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_endian.h" />
+		<Unit filename="../curl-master/lib/curl_fnmatch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_fnmatch.h" />
+		<Unit filename="../curl-master/lib/curl_get_line.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_get_line.h" />
+		<Unit filename="../curl-master/lib/curl_gethostname.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_gethostname.h" />
+		<Unit filename="../curl-master/lib/curl_gssapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_gssapi.h" />
+		<Unit filename="../curl-master/lib/curl_hmac.h" />
+		<Unit filename="../curl-master/lib/curl_krb5.h" />
+		<Unit filename="../curl-master/lib/curl_ldap.h" />
+		<Unit filename="../curl-master/lib/curl_md4.h" />
+		<Unit filename="../curl-master/lib/curl_md5.h" />
+		<Unit filename="../curl-master/lib/curl_memory.h" />
+		<Unit filename="../curl-master/lib/curl_memrchr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_memrchr.h" />
+		<Unit filename="../curl-master/lib/curl_multibyte.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_multibyte.h" />
+		<Unit filename="../curl-master/lib/curl_ntlm_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_ntlm_core.h" />
+		<Unit filename="../curl-master/lib/curl_ntlm_wb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_ntlm_wb.h" />
+		<Unit filename="../curl-master/lib/curl_path.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_path.h" />
+		<Unit filename="../curl-master/lib/curl_printf.h" />
+		<Unit filename="../curl-master/lib/curl_range.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_range.h" />
+		<Unit filename="../curl-master/lib/curl_rtmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_rtmp.h" />
+		<Unit filename="../curl-master/lib/curl_sasl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_sasl.h" />
+		<Unit filename="../curl-master/lib/curl_setup.h" />
+		<Unit filename="../curl-master/lib/curl_setup_once.h" />
+		<Unit filename="../curl-master/lib/curl_sha256.h" />
+		<Unit filename="../curl-master/lib/curl_sspi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_sspi.h" />
+		<Unit filename="../curl-master/lib/curl_threads.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/curl_threads.h" />
+		<Unit filename="../curl-master/lib/curlx.h" />
+		<Unit filename="../curl-master/lib/dict.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/dict.h" />
+		<Unit filename="../curl-master/lib/doh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/doh.h" />
+		<Unit filename="../curl-master/lib/dynbuf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/dynbuf.h" />
+		<Unit filename="../curl-master/lib/easy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/easy_lock.h" />
+		<Unit filename="../curl-master/lib/easygetopt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/easyif.h" />
+		<Unit filename="../curl-master/lib/easyoptions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/easyoptions.h" />
+		<Unit filename="../curl-master/lib/escape.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/escape.h" />
+		<Unit filename="../curl-master/lib/file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/file.h" />
+		<Unit filename="../curl-master/lib/fileinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/fileinfo.h" />
+		<Unit filename="../curl-master/lib/fopen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/fopen.h" />
+		<Unit filename="../curl-master/lib/formdata.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/formdata.h" />
+		<Unit filename="../curl-master/lib/ftp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/ftp.h" />
+		<Unit filename="../curl-master/lib/ftplistparser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/ftplistparser.h" />
+		<Unit filename="../curl-master/lib/functypes.h" />
+		<Unit filename="../curl-master/lib/getenv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/getinfo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/getinfo.h" />
+		<Unit filename="../curl-master/lib/gopher.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/gopher.h" />
+		<Unit filename="../curl-master/lib/h2h3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/h2h3.h" />
+		<Unit filename="../curl-master/lib/hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/hash.h" />
+		<Unit filename="../curl-master/lib/headers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/headers.h" />
+		<Unit filename="../curl-master/lib/hmac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/hostasyn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/hostip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/hostip.h" />
+		<Unit filename="../curl-master/lib/hostip4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/hostip6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/hostsyn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/hsts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/hsts.h" />
+		<Unit filename="../curl-master/lib/http.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/http.h" />
+		<Unit filename="../curl-master/lib/http2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/http2.h" />
+		<Unit filename="../curl-master/lib/http_aws_sigv4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/http_aws_sigv4.h" />
+		<Unit filename="../curl-master/lib/http_chunks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/http_chunks.h" />
+		<Unit filename="../curl-master/lib/http_digest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/http_digest.h" />
+		<Unit filename="../curl-master/lib/http_negotiate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/http_negotiate.h" />
+		<Unit filename="../curl-master/lib/http_ntlm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/http_ntlm.h" />
+		<Unit filename="../curl-master/lib/http_proxy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/http_proxy.h" />
+		<Unit filename="../curl-master/lib/idn_win32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/if2ip.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/if2ip.h" />
+		<Unit filename="../curl-master/lib/imap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/imap.h" />
+		<Unit filename="../curl-master/lib/inet_ntop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/inet_ntop.h" />
+		<Unit filename="../curl-master/lib/inet_pton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/inet_pton.h" />
+		<Unit filename="../curl-master/lib/krb5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/ldap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/llist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/llist.h" />
+		<Unit filename="../curl-master/lib/md4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/memdebug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/memdebug.h" />
+		<Unit filename="../curl-master/lib/mime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/mime.h" />
+		<Unit filename="../curl-master/lib/mprintf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/mqtt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/mqtt.h" />
+		<Unit filename="../curl-master/lib/multi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/multihandle.h" />
+		<Unit filename="../curl-master/lib/multiif.h" />
+		<Unit filename="../curl-master/lib/netrc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/netrc.h" />
+		<Unit filename="../curl-master/lib/nonblock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/nonblock.h" />
+		<Unit filename="../curl-master/lib/noproxy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/noproxy.h" />
+		<Unit filename="../curl-master/lib/openldap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/parsedate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/parsedate.h" />
+		<Unit filename="../curl-master/lib/pingpong.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/pingpong.h" />
+		<Unit filename="../curl-master/lib/pop3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/pop3.h" />
+		<Unit filename="../curl-master/lib/progress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/progress.h" />
+		<Unit filename="../curl-master/lib/psl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/psl.h" />
+		<Unit filename="../curl-master/lib/quic.h" />
+		<Unit filename="../curl-master/lib/rand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/rand.h" />
+		<Unit filename="../curl-master/lib/rename.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/rename.h" />
+		<Unit filename="../curl-master/lib/rtsp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/rtsp.h" />
+		<Unit filename="../curl-master/lib/select.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/select.h" />
+		<Unit filename="../curl-master/lib/sendf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/sendf.h" />
+		<Unit filename="../curl-master/lib/setopt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/setopt.h" />
+		<Unit filename="../curl-master/lib/setup-os400.h" />
+		<Unit filename="../curl-master/lib/setup-vms.h" />
+		<Unit filename="../curl-master/lib/setup-win32.h" />
+		<Unit filename="../curl-master/lib/sha256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/share.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/share.h" />
+		<Unit filename="../curl-master/lib/sigpipe.h" />
+		<Unit filename="../curl-master/lib/slist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/slist.h" />
+		<Unit filename="../curl-master/lib/smb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/smb.h" />
+		<Unit filename="../curl-master/lib/smtp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/smtp.h" />
+		<Unit filename="../curl-master/lib/sockaddr.h" />
+		<Unit filename="../curl-master/lib/socketpair.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/socketpair.h" />
+		<Unit filename="../curl-master/lib/socks.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/socks.h" />
+		<Unit filename="../curl-master/lib/socks_gssapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/socks_sspi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/speedcheck.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/speedcheck.h" />
+		<Unit filename="../curl-master/lib/splay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/splay.h" />
+		<Unit filename="../curl-master/lib/strcase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/strcase.h" />
+		<Unit filename="../curl-master/lib/strdup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/strdup.h" />
+		<Unit filename="../curl-master/lib/strerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/strerror.h" />
+		<Unit filename="../curl-master/lib/strtok.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/strtok.h" />
+		<Unit filename="../curl-master/lib/strtoofft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/strtoofft.h" />
+		<Unit filename="../curl-master/lib/system_win32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/system_win32.h" />
+		<Unit filename="../curl-master/lib/telnet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/telnet.h" />
+		<Unit filename="../curl-master/lib/tftp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/tftp.h" />
+		<Unit filename="../curl-master/lib/timediff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/timediff.h" />
+		<Unit filename="../curl-master/lib/timeval.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/timeval.h" />
+		<Unit filename="../curl-master/lib/transfer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/transfer.h" />
+		<Unit filename="../curl-master/lib/url.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/url.h" />
+		<Unit filename="../curl-master/lib/urlapi-int.h" />
+		<Unit filename="../curl-master/lib/urlapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/urldata.h" />
+		<Unit filename="../curl-master/lib/vauth/cleartext.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/cram.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/digest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/digest.h" />
+		<Unit filename="../curl-master/lib/vauth/digest_sspi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/gsasl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/krb5_gssapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/krb5_sspi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/ntlm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/ntlm.h" />
+		<Unit filename="../curl-master/lib/vauth/ntlm_sspi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/oauth2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/spnego_gssapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/spnego_sspi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/vauth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vauth/vauth.h" />
+		<Unit filename="../curl-master/lib/version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/version_win32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/version_win32.h" />
+		<Unit filename="../curl-master/lib/vquic/msh3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vquic/msh3.h" />
+		<Unit filename="../curl-master/lib/vquic/ngtcp2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vquic/ngtcp2.h" />
+		<Unit filename="../curl-master/lib/vquic/quiche.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vquic/quiche.h" />
+		<Unit filename="../curl-master/lib/vquic/vquic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vquic/vquic.h" />
+		<Unit filename="../curl-master/lib/vssh/libssh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vssh/libssh2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vssh/ssh.h" />
+		<Unit filename="../curl-master/lib/vssh/wolfssh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/bearssl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/bearssl.h" />
+		<Unit filename="../curl-master/lib/vtls/gskit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/gskit.h" />
+		<Unit filename="../curl-master/lib/vtls/gtls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/gtls.h" />
+		<Unit filename="../curl-master/lib/vtls/hostcheck.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/hostcheck.h" />
+		<Unit filename="../curl-master/lib/vtls/keylog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/keylog.h" />
+		<Unit filename="../curl-master/lib/vtls/mbedtls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/mbedtls.h" />
+		<Unit filename="../curl-master/lib/vtls/mbedtls_threadlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/mbedtls_threadlock.h" />
+		<Unit filename="../curl-master/lib/vtls/nss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/nssg.h" />
+		<Unit filename="../curl-master/lib/vtls/openssl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/openssl.h" />
+		<Unit filename="../curl-master/lib/vtls/rustls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/rustls.h" />
+		<Unit filename="../curl-master/lib/vtls/schannel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/schannel.h" />
+		<Unit filename="../curl-master/lib/vtls/schannel_verify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/sectransp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/sectransp.h" />
+		<Unit filename="../curl-master/lib/vtls/vtls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/vtls.h" />
+		<Unit filename="../curl-master/lib/vtls/wolfssl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/wolfssl.h" />
+		<Unit filename="../curl-master/lib/vtls/x509asn1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/vtls/x509asn1.h" />
+		<Unit filename="../curl-master/lib/warnless.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/warnless.h" />
+		<Unit filename="../curl-master/lib/wildcard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/wildcard.h" />
+		<Unit filename="../curl-master/lib/ws.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../curl-master/lib/ws.h" />
+		<Unit filename="../mbedtls/library/aes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/aesni.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/aesni.h" />
+		<Unit filename="../mbedtls/library/aria.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/asn1parse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/asn1write.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/base64.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/bignum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/bignum_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/bignum_core.h" />
+		<Unit filename="../mbedtls/library/bignum_mod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/bignum_mod.h" />
+		<Unit filename="../mbedtls/library/bignum_mod_raw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/bignum_mod_raw.h" />
+		<Unit filename="../mbedtls/library/bn_mul.h" />
+		<Unit filename="../mbedtls/library/camellia.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ccm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/chacha20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/chachapoly.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/check_crypto_config.h" />
+		<Unit filename="../mbedtls/library/cipher.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/cipher_wrap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/cipher_wrap.h" />
+		<Unit filename="../mbedtls/library/cmac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/common.h" />
+		<Unit filename="../mbedtls/library/constant_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/constant_time_internal.h" />
+		<Unit filename="../mbedtls/library/constant_time_invasive.h" />
+		<Unit filename="../mbedtls/library/ctr_drbg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/des.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/dhm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ecdh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ecdsa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ecjpake.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ecp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ecp_curves.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ecp_internal_alt.h" />
+		<Unit filename="../mbedtls/library/ecp_invasive.h" />
+		<Unit filename="../mbedtls/library/entropy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/entropy_poll.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/entropy_poll.h" />
+		<Unit filename="../mbedtls/library/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/gcm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/hash_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/hash_info.h" />
+		<Unit filename="../mbedtls/library/hkdf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/hmac_drbg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/lmots.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/lmots.h" />
+		<Unit filename="../mbedtls/library/lms.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/md.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/md_wrap.h" />
+		<Unit filename="../mbedtls/library/memory_buffer_alloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/mps_common.h" />
+		<Unit filename="../mbedtls/library/mps_error.h" />
+		<Unit filename="../mbedtls/library/mps_reader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/mps_reader.h" />
+		<Unit filename="../mbedtls/library/mps_trace.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/mps_trace.h" />
+		<Unit filename="../mbedtls/library/net_sockets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/nist_kw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/oid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/padlock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/padlock.h" />
+		<Unit filename="../mbedtls/library/pem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/pk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/pk_wrap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/pk_wrap.h" />
+		<Unit filename="../mbedtls/library/pkcs12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/pkcs5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/pkparse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/pkwrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/pkwrite.h" />
+		<Unit filename="../mbedtls/library/platform.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/platform_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/poly1305.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_aead.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_aead.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_cipher.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_cipher.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_core.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_driver_wrappers.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_ecp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_ecp.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_hash.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_invasive.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_its.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_mac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_mac.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_pake.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_random_impl.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_rsa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_rsa.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_se.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_se.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_slot_management.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_slot_management.h" />
+		<Unit filename="../mbedtls/library/psa_crypto_storage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/psa_crypto_storage.h" />
+		<Unit filename="../mbedtls/library/psa_its_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ripemd160.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/rsa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/rsa_alt_helpers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/rsa_alt_helpers.h" />
+		<Unit filename="../mbedtls/library/sha1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/sha256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/sha512.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_ciphersuites.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_client.h" />
+		<Unit filename="../mbedtls/library/ssl_cookie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_debug_helpers.h" />
+		<Unit filename="../mbedtls/library/ssl_misc.h" />
+		<Unit filename="../mbedtls/library/ssl_msg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_ticket.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_tls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_tls12_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_tls12_server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_tls13_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_tls13_generic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_tls13_invasive.h" />
+		<Unit filename="../mbedtls/library/ssl_tls13_keys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/ssl_tls13_keys.h" />
+		<Unit filename="../mbedtls/library/ssl_tls13_server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/threading.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/timing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/x509.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/x509_create.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/x509_crl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/x509_crt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/x509_csr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/x509write_crt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../mbedtls/library/x509write_csr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

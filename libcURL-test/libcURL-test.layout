@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="../curl-master/docs/examples/http3.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16876" topLine="407" />
+		</Cursor>
+	</File>
+	<File name="../curl-master/docs/examples/ftpget.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1607" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../curl-master/docs/examples/ftpupload.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2358" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="../curl-master/lib/vtls/mbedtls.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="7" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13137" topLine="414" />
+		</Cursor>
+	</File>
+	<File name="../curl-master/docs/examples/smtp-tls.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2753" topLine="72" />
+		</Cursor>
+	</File>
+	<File name="../curl-master/docs/examples/http2-download.c" open="1" top="1" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1816" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="../curl-master/lib/select.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7566" topLine="218" />
+		</Cursor>
+	</File>
+	<File name="../curl-master/docs/examples/ftpgetinfo.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1467" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="../curl-master/docs/examples/ftpsget.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../curl-master/lib/curl_config.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1032" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="../curl-master/lib/connect.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="25315" topLine="1681" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
